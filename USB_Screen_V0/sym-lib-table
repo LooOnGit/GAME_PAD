@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "USBCtoMIPI")(type "KiCad")(uri "${KIPRJMOD}/USBCtoMIPI.kicad_sym")(options "")(descr ""))
+)
