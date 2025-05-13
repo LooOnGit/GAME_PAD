@@ -18,6 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "usb_device.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -192,6 +193,7 @@ int main(void)
   MX_ADC1_Init();
   MX_ADC2_Init();
   MX_TIM1_Init();
+  MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
 //  MCP23017_EnablePullUps();
 
@@ -262,24 +264,26 @@ int main(void)
 //		TLC59116_Set_PWM(&hi2c1, j, value_ledPWM); // Tăng độ sáng OUT0
 //	}
 
-	HAL_ADC_Start(&hadc2);
-	HAL_ADC_PollForConversion(&hadc2, 100);
-	ADC_VAL = HAL_ADC_GetValue(&hadc2);
-	HAL_ADC_Stop(&hadc2);
-	value_ledPWM = (ADC_VAL * 800)/4096;
+//	HAL_ADC_Start(&hadc2);
+//	HAL_ADC_PollForConversion(&hadc2, 100);
+//	ADC_VAL = HAL_ADC_GetValue(&hadc2);
+//	HAL_ADC_Stop(&hadc2);
+//	value_ledPWM = (ADC_VAL * 800)/4096;
 
     // �?i�?u khiển PWM: Tăng dần từ 0 đến 100%
 //    for (uint16_t i = 0; i < 800; i++) {
 //        __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, i);  // Thay đổi duty cycle
 //        HAL_Delay(10); // Delay để quan sát thay đổi
 //    }
-    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, value_ledPWM);
+//    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, value_ledPWM);
     // �?i�?u khiển PWM: Giảm dần từ 100% xuống 0%
 //    for (uint16_t i = 799; i >= 0; i--) {
 //        __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, i);  // Thay đổi duty cycle
 //        HAL_Delay(10); // Delay để quan sát thay đổi
 //    }
 //	  __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, i);
+
+
   }
 
   /* USER CODE END 3 */
@@ -304,7 +308,7 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
-  RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL9;
+  RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL6;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -319,12 +323,13 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_1) != HAL_OK)
   {
     Error_Handler();
   }
-  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_ADC;
-  PeriphClkInit.AdcClockSelection = RCC_ADCPCLK2_DIV2;
+  PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_ADC|RCC_PERIPHCLK_USB;
+  PeriphClkInit.AdcClockSelection = RCC_ADCPCLK2_DIV4;
+  PeriphClkInit.UsbClockSelection = RCC_USBCLKSOURCE_PLL;
   if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
   {
     Error_Handler();
@@ -506,7 +511,7 @@ static void MX_TIM1_Init(void)
     Error_Handler();
   }
   sConfigOC.OCMode = TIM_OCMODE_PWM1;
-  sConfigOC.Pulse = 0;
+  sConfigOC.Pulse = 25;
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCNPolarity = TIM_OCNPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;

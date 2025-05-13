@@ -634,3 +634,1508 @@
 2025-05-13 10:34:20,759 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
 2025-05-13 10:34:20,759 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
 2025-05-13 10:34:20,759 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 10:38:54,728 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:54,822 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:54,822 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:54,823 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:54,823 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:54,823 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:54,823 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:54,823 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:54,823 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:54,823 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:54,823 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:54,831 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:54,907 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 10:38:54,971 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 10:38:55,042 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 10:38:55,078 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,078 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,079 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,079 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,079 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,079 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,079 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,079 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,079 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,079 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,085 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,100 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,100 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,100 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,100 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,100 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,101 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,101 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,101 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,101 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,101 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:38:55,107 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:33,188 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:36,176 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,015 [INFO] SpinnerEditorADC:65 - is string kkkk
+2025-05-13 10:39:41,173 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,176 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,176 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,176 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,176 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,177 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,182 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,184 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,184 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,199 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,199 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,200 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,200 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,200 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,200 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,200 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,200 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,200 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,200 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,200 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,200 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,200 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,200 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,200 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,202 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,202 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,202 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,202 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,202 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,202 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,208 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,208 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,208 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,278 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 10:39:41,342 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 10:39:41,409 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 10:39:41,436 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,436 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,438 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,438 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,438 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,438 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,438 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,438 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,439 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,439 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,439 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,439 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,439 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,439 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,439 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,440 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:41,444 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,444 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:41,444 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:44,015 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:44,018 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:44,892 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:44,892 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:46,445 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:46,445 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:53,420 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:53,420 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:55,031 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:55,031 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:55,571 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:39:55,571 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:39:56,434 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:39:56,434 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:50:40,138 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:50:40,138 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:50:41,120 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:50:41,120 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:50:42,963 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:50:42,963 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:50:43,411 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:50:43,411 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:50:58,085 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 10:50:58,085 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:50:58,474 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:50:58,474 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:51:01,341 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 10:51:01,386 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:01,386 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:51:01,391 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:01,391 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:51:01,391 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:01,391 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:51:01,391 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:01,391 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:51:01,391 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:01,391 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:51:01,392 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:01,392 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:51:01,392 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:01,392 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:51:01,392 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:01,392 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:51:01,392 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:01,392 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:51:01,394 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:01,394 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:51:01,394 [INFO] ADCParametersView:116 -        *      Rank 2 : false
+2025-05-13 10:51:01,403 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:01,404 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:01,404 [INFO] ADCParametersView:116 -                Rank 2 : false
+2025-05-13 10:51:13,831 [INFO] SpinnerEditorADC:65 - is string kkkk
+2025-05-13 10:51:22,981 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 10:51:23,004 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:23,004 [INFO] ADCParametersView:116 -                Rank 2 : false
+2025-05-13 10:51:23,005 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:23,005 [INFO] ADCParametersView:116 -                Rank 2 : false
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 2 : false
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 2 : false
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 2 : false
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 2 : false
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 2 : false
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 2 : false
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 2 : false
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 2 : false
+2025-05-13 10:51:23,006 [INFO] ADCParametersView:116 -                Rank 2 : false
+2025-05-13 10:51:23,010 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 10:51:36,335 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 811904400 Bytes (1073741824)
+2025-05-13 10:51:39,192 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 852458168 Bytes (1073741824)
+2025-05-13 10:51:39,610 [INFO] ProjectBuilder:2320 - IP not ready for code generation: Clock
+2025-05-13 10:51:40,917 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-05-13 10:51:40,917 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-05-13 10:51:40,918 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-05-13 10:51:40,918 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 10:51:40,918 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-05-13 10:51:40,918 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-05-13 10:51:40,918 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2025-05-13 10:51:40,924 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 10:51:40,924 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 10:51:41,136 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp_save
+2025-05-13 10:51:41,729 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp
+2025-05-13 10:51:41,849 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp_save
+2025-05-13 10:51:41,985 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp
+2025-05-13 10:51:42,163 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c_save
+2025-05-13 10:51:42,275 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c
+2025-05-13 10:51:42,301 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h_save
+2025-05-13 10:51:42,396 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h
+2025-05-13 10:51:42,429 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c_save
+2025-05-13 10:51:42,583 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c
+2025-05-13 10:51:42,597 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp_save
+2025-05-13 10:51:42,675 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp
+2025-05-13 10:51:42,707 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h_save
+2025-05-13 10:51:42,826 [INFO] CodeEngine:335 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h
+2025-05-13 10:51:42,891 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h_save
+2025-05-13 10:51:42,987 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h
+2025-05-13 10:51:43,013 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c_save
+2025-05-13 10:51:43,169 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c
+2025-05-13 10:51:43,510 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 156mS.
+2025-05-13 10:51:43,515 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2025-05-13 10:51:43,605 [INFO] ConfigFileManager:1531 - The Die is : DIE410
+2025-05-13 10:51:43,625 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-05-13 10:51:43,641 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2025-05-13 10:51:43,659 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2025-05-13 10:51:44,458 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-05-13 10:51:46,462 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 2947mS.
+2025-05-13 10:51:46,463 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 10:51:46,465 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 11:09:25,065 [INFO] ParamManager:896 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2025-05-13 11:09:25,081 [INFO] ParamManager:896 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2025-05-13 11:09:25,084 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,097 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,098 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,098 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,098 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,098 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,098 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,098 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,098 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,098 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,098 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,114 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,165 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 11:09:25,222 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 11:09:25,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,260 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,264 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,277 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,277 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,277 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,277 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,277 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,277 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,277 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,277 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,278 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,278 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:25,282 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:32,532 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:35,041 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-05-13 11:09:46,553 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,272 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,278 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,278 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,278 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,278 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,278 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,278 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,278 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,278 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,278 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,282 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,293 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,293 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,293 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,293 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,295 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,295 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,295 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,295 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,295 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,295 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,299 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,323 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,325 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,325 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,325 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,325 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,325 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,325 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,326 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,326 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,326 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:48,329 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:09:49,759 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 695458424 Bytes (1073741824)
+2025-05-13 11:09:51,743 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 734808872 Bytes (1073741824)
+2025-05-13 11:09:51,851 [INFO] ProjectBuilder:2320 - IP not ready for code generation: Clock
+2025-05-13 11:09:57,258 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-05-13 11:09:57,258 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 11:09:57,258 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-05-13 11:09:57,258 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-05-13 11:09:57,258 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 11:09:57,258 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-05-13 11:09:57,258 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-05-13 11:09:57,259 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2025-05-13 11:09:57,263 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:09:57,263 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:09:57,327 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp_save
+2025-05-13 11:09:57,422 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp
+2025-05-13 11:09:57,443 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp_save
+2025-05-13 11:09:57,531 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp
+2025-05-13 11:09:57,604 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c_save
+2025-05-13 11:09:57,813 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c
+2025-05-13 11:09:57,818 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h_save
+2025-05-13 11:09:57,883 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h
+2025-05-13 11:09:57,906 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c_save
+2025-05-13 11:09:58,032 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c
+2025-05-13 11:09:58,035 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp_save
+2025-05-13 11:09:58,081 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp
+2025-05-13 11:09:58,098 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h_save
+2025-05-13 11:09:58,188 [INFO] CodeEngine:335 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h
+2025-05-13 11:09:58,228 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h_save
+2025-05-13 11:09:58,309 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h
+2025-05-13 11:09:58,324 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c_save
+2025-05-13 11:09:58,443 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c
+2025-05-13 11:09:58,758 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 146mS.
+2025-05-13 11:09:58,762 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2025-05-13 11:09:58,877 [INFO] ConfigFileManager:1531 - The Die is : DIE410
+2025-05-13 11:09:59,684 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 922mS.
+2025-05-13 11:09:59,685 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2025-05-13 11:09:59,687 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 11:13:16,588 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 707570168 Bytes (1073741824)
+2025-05-13 11:13:16,686 [INFO] ProjectBuilder:2320 - IP not ready for code generation: Clock
+2025-05-13 11:13:17,642 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-05-13 11:13:17,642 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 11:13:17,642 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-05-13 11:13:17,642 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-05-13 11:13:17,642 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 11:13:17,642 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-05-13 11:13:17,642 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-05-13 11:13:17,643 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2025-05-13 11:13:17,647 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:13:17,647 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:13:17,710 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp_save
+2025-05-13 11:13:17,799 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp
+2025-05-13 11:13:17,814 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp_save
+2025-05-13 11:13:17,894 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp
+2025-05-13 11:13:17,970 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c_save
+2025-05-13 11:13:18,038 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c
+2025-05-13 11:13:18,043 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h_save
+2025-05-13 11:13:18,091 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h
+2025-05-13 11:13:18,109 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c_save
+2025-05-13 11:13:18,185 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c
+2025-05-13 11:13:18,188 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp_save
+2025-05-13 11:13:18,235 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp
+2025-05-13 11:13:18,251 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h_save
+2025-05-13 11:13:18,340 [INFO] CodeEngine:335 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h
+2025-05-13 11:13:18,378 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h_save
+2025-05-13 11:13:18,442 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h
+2025-05-13 11:13:18,455 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c_save
+2025-05-13 11:13:18,568 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c
+2025-05-13 11:13:18,815 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 107mS.
+2025-05-13 11:13:18,817 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2025-05-13 11:13:18,892 [INFO] ConfigFileManager:1531 - The Die is : DIE410
+2025-05-13 11:13:19,573 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 756mS.
+2025-05-13 11:13:19,574 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2025-05-13 11:13:19,575 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 11:35:55,409 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:35:55,409 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:35:55,409 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:35:55,409 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:35:55,424 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:35:55,424 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:35:55,439 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:35:55,439 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:06,363 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:06,363 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:06,363 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:06,364 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:06,381 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:06,381 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:06,401 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:06,401 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:42,128 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:42,128 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:42,128 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:42,128 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:42,151 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:42,151 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:42,167 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:42,167 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:50,203 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:50,203 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:50,204 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:50,204 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:50,221 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:50,221 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:50,237 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:36:50,237 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:38:53,495 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:38:53,495 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:38:53,495 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:38:53,495 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:38:53,509 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:38:53,509 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:38:53,523 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:38:53,523 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:39:13,861 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:39:13,861 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:39:13,861 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:39:13,861 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:39:13,878 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:39:13,878 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:39:13,896 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:39:13,896 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:34,033 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:34,033 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:34,033 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:34,033 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:34,049 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:34,049 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:34,065 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:34,065 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:37,662 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:37,662 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:37,662 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:37,662 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:37,681 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:37,681 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:37,718 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:37,718 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:42,189 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:42,189 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:42,189 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:42,189 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:42,205 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:42,206 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:42,222 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:42,222 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:44:50,243 [INFO] Gpio:277 - dependency for GPIO [ADC1, ADC2, I2C1, RCC, SYS, TIM1]
+2025-05-13 11:44:58,486 [INFO] Gpio:277 - dependency for GPIO [ADC1, ADC2, I2C1, RCC, SYS]
+2025-05-13 11:44:58,572 [INFO] Gpio:277 - dependency for GPIO [ADC1, ADC2, I2C1, RCC, SYS]
+2025-05-13 11:45:06,025 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,026 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,026 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,026 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,026 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,026 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,026 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,026 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,026 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,026 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,029 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,038 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,039 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,039 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,039 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,039 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,039 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,040 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,040 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,040 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,040 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:06,042 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,202 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,202 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,203 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,203 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,203 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,203 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,203 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,203 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,203 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,203 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,206 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,217 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,217 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,219 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,219 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,219 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,219 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,219 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,219 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,219 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,219 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:07,222 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,069 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,070 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,070 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,070 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,070 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,070 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,070 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,070 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,070 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,070 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,073 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,081 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,082 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,082 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,082 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,082 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,082 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,082 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,082 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,082 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,082 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:08,085 [INFO] ADCParametersView:116 -                Rank 1 : true
+2025-05-13 11:45:10,305 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 11:46:43,026 [INFO] Gpio:277 - dependency for GPIO [ADC1, ADC2, I2C1, RCC, SYS]
+2025-05-13 11:47:31,200 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,476x247,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 11:48:05,847 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:05,847 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:05,847 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:05,847 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:05,863 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:05,863 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:05,878 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:05,878 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:10,127 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:10,127 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:10,127 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:10,127 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:10,150 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:10,150 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:10,172 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:48:10,172 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:49:40,923 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:49:40,923 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:49:40,923 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:49:40,923 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:49:40,943 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:49:40,943 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:49:40,964 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:49:40,964 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:02,784 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:02,784 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:02,784 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:02,784 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:02,802 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:02,802 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:02,820 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:02,821 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:05,025 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:05,025 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:05,026 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:05,026 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:05,044 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:05,044 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:05,062 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:05,063 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:13,610 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:13,610 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:13,610 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:13,610 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:13,632 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:13,632 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:13,653 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:13,654 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:51:48,127 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,476x192,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 11:54:43,014 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.awt.IllegalComponentStateException: component must be showing on the screen to determine its location
+2025-05-13 11:54:43,017 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen_NoTreeLock(Component.java:2113)
+2025-05-13 11:54:43,017 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.getLocationOnScreen(Component.java:2087)
+2025-05-13 11:54:43,018 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JPopupMenu.show(JPopupMenu.java:960)
+2025-05-13 11:54:43,019 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.show(BasicComboPopup.java:235)
+2025-05-13 11:54:43,020 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup.togglePopup(BasicComboPopup.java:1257)
+2025-05-13 11:54:43,021 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicComboPopup$Handler.mousePressed(BasicComboPopup.java:936)
+2025-05-13 11:54:43,022 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6623)
+2025-05-13 11:54:43,023 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2025-05-13 11:54:43,023 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2025-05-13 11:54:43,024 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2025-05-13 11:54:43,025 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2025-05-13 11:54:43,025 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2025-05-13 11:54:43,026 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2025-05-13 11:54:43,027 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.repostEvent(BasicTableUI.java:987)
+2025-05-13 11:54:43,028 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.adjustSelection(BasicTableUI.java:1149)
+2025-05-13 11:54:43,029 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTableUI$Handler.mousePressed(BasicTableUI.java:1077)
+2025-05-13 11:54:43,030 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:288)
+2025-05-13 11:54:43,032 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2025-05-13 11:54:43,032 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2025-05-13 11:54:43,033 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mousePressed(AWTEventMulticaster.java:287)
+2025-05-13 11:54:43,034 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6623)
+2025-05-13 11:54:43,035 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2025-05-13 11:54:43,035 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2025-05-13 11:54:43,036 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2025-05-13 11:54:43,037 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2025-05-13 11:54:43,037 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2025-05-13 11:54:43,038 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2025-05-13 11:54:43,039 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2025-05-13 11:54:43,040 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4572)
+2025-05-13 11:54:43,040 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2025-05-13 11:54:43,042 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2025-05-13 11:54:43,042 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2025-05-13 11:54:43,043 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2025-05-13 11:54:43,044 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2025-05-13 11:54:43,044 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2025-05-13 11:54:43,045 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2025-05-13 11:54:43,046 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2025-05-13 11:54:43,047 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2025-05-13 11:54:43,049 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2025-05-13 11:54:43,050 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2025-05-13 11:54:43,050 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2025-05-13 11:54:43,052 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2025-05-13 11:54:43,052 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2025-05-13 11:54:43,053 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2025-05-13 11:54:43,054 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2025-05-13 11:54:43,056 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2025-05-13 11:54:43,056 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2025-05-13 11:54:43,057 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2025-05-13 11:54:43,058 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-05-13 11:54:57,787 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 11:56:00,671 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 727779424 Bytes (1073741824)
+2025-05-13 11:56:06,698 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 826867808 Bytes (1073741824)
+2025-05-13 11:56:06,787 [INFO] ProjectBuilder:2320 - IP not ready for code generation: Clock
+2025-05-13 11:57:17,777 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-05-13 11:57:17,778 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8F1
+2025-05-13 11:57:17,778 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8F1
+2025-05-13 11:57:17,778 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 11:57:17,778 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-05-13 11:57:17,778 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-05-13 11:57:17,778 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 11:57:17,778 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-05-13 11:57:17,778 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-05-13 11:57:17,779 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2025-05-13 11:57:17,782 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 11:57:17,782 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 11:57:17,850 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp_save
+2025-05-13 11:57:17,934 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp
+2025-05-13 11:57:17,951 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp_save
+2025-05-13 11:57:18,064 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp
+2025-05-13 11:57:18,198 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c_save
+2025-05-13 11:57:18,336 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c
+2025-05-13 11:57:18,340 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h_save
+2025-05-13 11:57:18,396 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h
+2025-05-13 11:57:18,415 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c_save
+2025-05-13 11:57:18,553 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c
+2025-05-13 11:57:18,566 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp_save
+2025-05-13 11:57:18,614 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp
+2025-05-13 11:57:18,631 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h_save
+2025-05-13 11:57:18,725 [INFO] CodeEngine:335 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h
+2025-05-13 11:57:18,752 [WARN] IPConfigManager:3554 - IP not found : TIM
+2025-05-13 11:57:18,753 [WARN] CodeGenerator:4002 - IP not found : null
+2025-05-13 11:57:18,776 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h_save
+2025-05-13 11:57:18,898 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h
+2025-05-13 11:57:18,911 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c_save
+2025-05-13 11:57:19,040 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c
+2025-05-13 11:57:19,377 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 136mS.
+2025-05-13 11:57:19,379 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2025-05-13 11:57:19,468 [INFO] ConfigFileManager:1531 - The Die is : DIE410
+2025-05-13 11:57:20,207 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 828mS.
+2025-05-13 11:57:20,208 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 11:57:20,210 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 12:02:40,943 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 12:02:43,596 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 862834392 Bytes (1073741824)
+2025-05-13 12:02:47,258 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 937539056 Bytes (1073741824)
+2025-05-13 12:02:47,357 [INFO] ProjectBuilder:2320 - IP not ready for code generation: Clock
+2025-05-13 12:02:48,235 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-05-13 12:02:48,236 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8F1
+2025-05-13 12:02:48,236 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8F1
+2025-05-13 12:02:48,236 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 12:02:48,236 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-05-13 12:02:48,236 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-05-13 12:02:48,236 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 12:02:48,236 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-05-13 12:02:48,236 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-05-13 12:02:48,236 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2025-05-13 12:02:48,241 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 12:02:48,241 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 12:02:48,325 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp_save
+2025-05-13 12:02:48,411 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp
+2025-05-13 12:02:48,430 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp_save
+2025-05-13 12:02:48,514 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp
+2025-05-13 12:02:48,638 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c_save
+2025-05-13 12:02:48,829 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c
+2025-05-13 12:02:48,834 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h_save
+2025-05-13 12:02:48,889 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h
+2025-05-13 12:02:48,905 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c_save
+2025-05-13 12:02:49,008 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c
+2025-05-13 12:02:49,013 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp_save
+2025-05-13 12:02:49,058 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp
+2025-05-13 12:02:49,074 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h_save
+2025-05-13 12:02:49,166 [INFO] CodeEngine:335 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h
+2025-05-13 12:02:49,183 [WARN] IPConfigManager:3554 - IP not found : TIM
+2025-05-13 12:02:49,184 [WARN] CodeGenerator:4002 - IP not found : null
+2025-05-13 12:02:49,200 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h_save
+2025-05-13 12:02:49,273 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h
+2025-05-13 12:02:49,285 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c_save
+2025-05-13 12:02:49,415 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c
+2025-05-13 12:02:49,707 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 124mS.
+2025-05-13 12:02:49,710 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2025-05-13 12:02:49,782 [INFO] ConfigFileManager:1531 - The Die is : DIE410
+2025-05-13 12:02:50,486 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 775mS.
+2025-05-13 12:02:50,486 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 12:02:50,488 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 13:14:26,750 [INFO] WebApp:189 - Connection lost
+2025-05-13 13:14:29,716 [INFO] WebApp:186 - Connection restablished
+2025-05-13 13:44:24,954 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.lang.ClassCastException: class sun.awt.windows.WEmbeddedFrame cannot be cast to class javax.swing.JFrame (sun.awt.windows.WEmbeddedFrame and javax.swing.JFrame are in module java.desktop of loader 'bootstrap')
+2025-05-13 13:44:24,958 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.clock.ClockConfigurationView.activatePlugin(ClockConfigurationView.java:425)
+2025-05-13 13:44:24,959 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.maingui.MainPanel$1.stateChanged(MainPanel.java:374)
+2025-05-13 13:44:24,960 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.fireStateChanged(JTabbedPane.java:444)
+2025-05-13 13:44:24,962 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane$ModelListener.stateChanged(JTabbedPane.java:295)
+2025-05-13 13:44:24,963 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.fireStateChanged(DefaultSingleSelectionModel.java:148)
+2025-05-13 13:44:24,965 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.setSelectedIndex(DefaultSingleSelectionModel.java:79)
+2025-05-13 13:44:24,966 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndexImpl(JTabbedPane.java:648)
+2025-05-13 13:44:24,967 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndex(JTabbedPane.java:623)
+2025-05-13 13:44:24,968 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$Handler.mousePressed(BasicTabbedPaneUI.java:4101)
+2025-05-13 13:44:24,968 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6623)
+2025-05-13 13:44:24,969 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2025-05-13 13:44:24,970 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2025-05-13 13:44:24,971 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2025-05-13 13:44:24,971 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2025-05-13 13:44:24,973 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2025-05-13 13:44:24,974 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2025-05-13 13:44:24,975 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2025-05-13 13:44:24,975 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4572)
+2025-05-13 13:44:24,976 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2025-05-13 13:44:24,977 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2025-05-13 13:44:24,977 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2025-05-13 13:44:24,978 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2025-05-13 13:44:24,979 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2025-05-13 13:44:24,979 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2025-05-13 13:44:24,981 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2025-05-13 13:44:24,982 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2025-05-13 13:44:24,983 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2025-05-13 13:44:24,983 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2025-05-13 13:44:24,984 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2025-05-13 13:44:24,985 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2025-05-13 13:44:24,986 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2025-05-13 13:44:24,987 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2025-05-13 13:44:24,988 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2025-05-13 13:44:24,989 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2025-05-13 13:44:24,990 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2025-05-13 13:44:24,990 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2025-05-13 13:44:24,991 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2025-05-13 13:44:24,992 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-05-13 13:46:28,972 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 13:46:36,488 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 838973536 Bytes (1073741824)
+2025-05-13 13:46:38,753 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 876722272 Bytes (1073741824)
+2025-05-13 13:46:38,854 [INFO] ProjectBuilder:2320 - IP not ready for code generation: Clock
+2025-05-13 13:46:39,940 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-05-13 13:46:39,940 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8F1
+2025-05-13 13:46:39,940 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 13:46:39,940 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-05-13 13:46:39,940 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-05-13 13:46:39,940 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 13:46:39,940 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-05-13 13:46:39,940 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-05-13 13:46:39,941 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2025-05-13 13:46:39,945 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:46:39,946 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:46:40,146 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp_save
+2025-05-13 13:46:40,204 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp
+2025-05-13 13:46:40,259 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp_save
+2025-05-13 13:46:40,319 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp
+2025-05-13 13:46:40,573 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c_save
+2025-05-13 13:46:40,722 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c
+2025-05-13 13:46:40,757 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h_save
+2025-05-13 13:46:40,816 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h
+2025-05-13 13:46:40,849 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c_save
+2025-05-13 13:46:40,972 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c
+2025-05-13 13:46:40,988 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp_save
+2025-05-13 13:46:41,045 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp
+2025-05-13 13:46:41,092 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h_save
+2025-05-13 13:46:41,184 [INFO] CodeEngine:335 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h
+2025-05-13 13:46:41,205 [WARN] IPConfigManager:3554 - IP not found : TIM
+2025-05-13 13:46:41,206 [WARN] CodeGenerator:4002 - IP not found : null
+2025-05-13 13:46:41,233 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h_save
+2025-05-13 13:46:41,295 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h
+2025-05-13 13:46:41,322 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c_save
+2025-05-13 13:46:41,444 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c
+2025-05-13 13:46:42,391 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 771mS.
+2025-05-13 13:46:42,393 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2025-05-13 13:46:42,492 [INFO] ConfigFileManager:1531 - The Die is : DIE410
+2025-05-13 13:46:43,509 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 1116mS.
+2025-05-13 13:46:43,510 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 13:46:43,516 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2025-05-13 13:55:19,420 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:19,420 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:19,420 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:19,420 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:19,435 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:19,435 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:19,450 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:19,450 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:36,511 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:36,511 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:36,512 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:36,512 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:36,535 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:36,535 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:36,555 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:55:36,555 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:00,595 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:00,595 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:00,595 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:00,595 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:00,617 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:00,618 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:00,637 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:00,637 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:22,904 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:22,904 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:22,904 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:22,904 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:22,921 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:22,921 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:22,936 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:56:22,936 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:58:44,223 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 772289912 Bytes (1073741824)
+2025-05-13 13:58:50,190 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 847809000 Bytes (1073741824)
+2025-05-13 13:58:50,293 [INFO] ProjectBuilder:2320 - IP not ready for code generation: Clock
+2025-05-13 13:59:05,915 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-05-13 13:59:05,915 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8F1
+2025-05-13 13:59:05,915 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 13:59:05,915 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-05-13 13:59:05,916 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-05-13 13:59:05,916 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 13:59:05,916 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-05-13 13:59:05,916 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-05-13 13:59:05,917 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2025-05-13 13:59:05,921 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 13:59:05,921 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 13:59:05,979 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp_save
+2025-05-13 13:59:06,068 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp
+2025-05-13 13:59:06,089 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp_save
+2025-05-13 13:59:06,171 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp
+2025-05-13 13:59:06,250 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c_save
+2025-05-13 13:59:06,408 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c
+2025-05-13 13:59:06,415 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h_save
+2025-05-13 13:59:06,468 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h
+2025-05-13 13:59:06,485 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c_save
+2025-05-13 13:59:06,572 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c
+2025-05-13 13:59:06,575 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp_save
+2025-05-13 13:59:06,622 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp
+2025-05-13 13:59:06,639 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h_save
+2025-05-13 13:59:06,735 [INFO] CodeEngine:335 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h
+2025-05-13 13:59:06,754 [WARN] IPConfigManager:3554 - IP not found : TIM
+2025-05-13 13:59:06,754 [WARN] CodeGenerator:4002 - IP not found : null
+2025-05-13 13:59:06,775 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h_save
+2025-05-13 13:59:06,844 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h
+2025-05-13 13:59:06,859 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c_save
+2025-05-13 13:59:06,987 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c
+2025-05-13 13:59:07,255 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 106mS.
+2025-05-13 13:59:07,257 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2025-05-13 13:59:07,320 [INFO] ConfigFileManager:1531 - The Die is : DIE410
+2025-05-13 13:59:08,009 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 752mS.
+2025-05-13 13:59:08,009 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 13:59:08,011 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 13:59:32,285 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-05-13 14:01:10,618 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 746998560 Bytes (1073741824)
+2025-05-13 14:01:12,439 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 782644384 Bytes (1073741824)
+2025-05-13 14:01:12,513 [INFO] ProjectBuilder:2320 - IP not ready for code generation: Clock
+2025-05-13 14:01:13,608 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-05-13 14:01:13,608 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8F1
+2025-05-13 14:01:13,608 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 14:01:13,608 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-05-13 14:01:13,608 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-05-13 14:01:13,608 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 14:01:13,608 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-05-13 14:01:13,608 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-05-13 14:01:13,608 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2025-05-13 14:01:13,613 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 14:01:13,613 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 14:01:13,671 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp_save
+2025-05-13 14:01:13,746 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp
+2025-05-13 14:01:13,759 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp_save
+2025-05-13 14:01:13,832 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp
+2025-05-13 14:01:13,904 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c_save
+2025-05-13 14:01:13,983 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c
+2025-05-13 14:01:13,987 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h_save
+2025-05-13 14:01:14,038 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h
+2025-05-13 14:01:14,057 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c_save
+2025-05-13 14:01:14,137 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c
+2025-05-13 14:01:14,141 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp_save
+2025-05-13 14:01:14,195 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp
+2025-05-13 14:01:14,213 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h_save
+2025-05-13 14:01:14,309 [INFO] CodeEngine:335 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h
+2025-05-13 14:01:14,327 [WARN] IPConfigManager:3554 - IP not found : TIM
+2025-05-13 14:01:14,328 [WARN] CodeGenerator:4002 - IP not found : null
+2025-05-13 14:01:14,342 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h_save
+2025-05-13 14:01:14,407 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h
+2025-05-13 14:01:14,422 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c_save
+2025-05-13 14:01:14,534 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c
+2025-05-13 14:01:14,855 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 130mS.
+2025-05-13 14:01:14,857 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2025-05-13 14:01:14,956 [INFO] ConfigFileManager:1531 - The Die is : DIE410
+2025-05-13 14:01:15,654 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 797mS.
+2025-05-13 14:01:15,655 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2025-05-13 14:01:15,657 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2025-05-13 14:31:01,430 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.lang.ClassCastException: class sun.awt.windows.WEmbeddedFrame cannot be cast to class javax.swing.JFrame (sun.awt.windows.WEmbeddedFrame and javax.swing.JFrame are in module java.desktop of loader 'bootstrap')
+2025-05-13 14:31:01,432 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.clock.ClockConfigurationView.activatePlugin(ClockConfigurationView.java:425)
+2025-05-13 14:31:01,434 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.maingui.MainPanel$1.stateChanged(MainPanel.java:374)
+2025-05-13 14:31:01,435 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.fireStateChanged(JTabbedPane.java:444)
+2025-05-13 14:31:01,436 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane$ModelListener.stateChanged(JTabbedPane.java:295)
+2025-05-13 14:31:01,437 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.fireStateChanged(DefaultSingleSelectionModel.java:148)
+2025-05-13 14:31:01,438 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.setSelectedIndex(DefaultSingleSelectionModel.java:79)
+2025-05-13 14:31:01,439 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndexImpl(JTabbedPane.java:648)
+2025-05-13 14:31:01,440 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndex(JTabbedPane.java:623)
+2025-05-13 14:31:01,441 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$Handler.mousePressed(BasicTabbedPaneUI.java:4101)
+2025-05-13 14:31:01,442 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6623)
+2025-05-13 14:31:01,442 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3389)
+2025-05-13 14:31:01,443 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6391)
+2025-05-13 14:31:01,444 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2025-05-13 14:31:01,444 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5001)
+2025-05-13 14:31:01,446 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2025-05-13 14:31:01,447 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2025-05-13 14:31:01,448 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2025-05-13 14:31:01,449 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4572)
+2025-05-13 14:31:01,450 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2025-05-13 14:31:01,450 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2025-05-13 14:31:01,451 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4833)
+2025-05-13 14:31:01,452 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2025-05-13 14:31:01,452 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2025-05-13 14:31:01,453 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2025-05-13 14:31:01,454 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2025-05-13 14:31:01,456 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2025-05-13 14:31:01,457 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97)
+2025-05-13 14:31:01,458 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2025-05-13 14:31:01,458 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2025-05-13 14:31:01,459 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:399)
+2025-05-13 14:31:01,460 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86)
+2025-05-13 14:31:01,461 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2025-05-13 14:31:01,462 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2025-05-13 14:31:01,463 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2025-05-13 14:31:01,464 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2025-05-13 14:31:01,465 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2025-05-13 14:31:01,466 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2025-05-13 14:31:01,466 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-05-13 14:33:14,065 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 874803032 Bytes (1073741824)
+2025-05-13 14:33:15,464 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 896635512 Bytes (1073741824)
+2025-05-13 14:33:18,006 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 774983176 Bytes (1073741824)
+2025-05-13 14:33:18,085 [INFO] ProjectBuilder:2320 - IP not ready for code generation: Clock
+2025-05-13 14:33:19,015 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-05-13 14:33:19,015 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8F1
+2025-05-13 14:33:19,015 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 14:33:19,015 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-05-13 14:33:19,015 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-05-13 14:33:19,015 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 14:33:19,015 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-05-13 14:33:19,015 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-05-13 14:33:19,016 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2025-05-13 14:33:19,018 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 14:33:19,018 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 14:33:19,077 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp_save
+2025-05-13 14:33:19,151 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp
+2025-05-13 14:33:19,165 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp_save
+2025-05-13 14:33:19,246 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp
+2025-05-13 14:33:19,315 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c_save
+2025-05-13 14:33:19,455 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c
+2025-05-13 14:33:19,459 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h_save
+2025-05-13 14:33:19,506 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h
+2025-05-13 14:33:19,524 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c_save
+2025-05-13 14:33:19,604 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c
+2025-05-13 14:33:19,608 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp_save
+2025-05-13 14:33:19,653 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp
+2025-05-13 14:33:19,669 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h_save
+2025-05-13 14:33:19,757 [INFO] CodeEngine:335 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h
+2025-05-13 14:33:19,774 [WARN] IPConfigManager:3554 - IP not found : TIM
+2025-05-13 14:33:19,775 [WARN] CodeGenerator:4002 - IP not found : null
+2025-05-13 14:33:19,788 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h_save
+2025-05-13 14:33:19,861 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h
+2025-05-13 14:33:19,873 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c_save
+2025-05-13 14:33:19,987 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c
+2025-05-13 14:33:20,269 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 121mS.
+2025-05-13 14:33:20,271 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2025-05-13 14:33:20,350 [INFO] ConfigFileManager:1531 - The Die is : DIE410
+2025-05-13 14:33:21,003 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 732mS.
+2025-05-13 14:33:21,004 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 14:33:21,006 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 14:33:33,528 [INFO] MainUpdater:2873 - connection check result : 10
+2025-05-13 14:33:33,528 [INFO] MainUpdater:2873 - connection check result : 10
+2025-05-13 14:33:33,573 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-05-13 14:33:33,573 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.121
+2025-05-13 14:33:33,581 [ERROR] ProjectManagerView:394 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$10.caretUpdate(ProjectChoiceTab.java:2622) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:412) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4491) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4513) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:842) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1313) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1212) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1193) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1789) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:226) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:780) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:739) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:698) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1729) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:972) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3597) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1940) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:550) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:391) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:900) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:781) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:265) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:352) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:330) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:246) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1198) ~[com.st.stm32cube.common.mx_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1068) ~[com.st.stm32cube.common.mx_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.12.1.202409122256/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.12.1.202409122256/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2025-05-13 14:33:33,591 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2025-05-13 14:33:33,591 [INFO] ThirdParty:873 - entering critical section [close project]
+2025-05-13 14:33:33,593 [INFO] ThirdParty:883 - exiting critical section [close project]
+2025-05-13 14:33:33,594 [INFO] PinOutPanel:1561 - setPackage(No Configuration,No Configuration)
+2025-05-13 14:33:33,601 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 764966664 Bytes (1073741824)
+2025-05-13 14:33:33,601 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-05-13 14:33:33,601 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.121
+2025-05-13 14:33:33,601 [INFO] OpenFileManager:332 - Change cursor
+2025-05-13 14:33:33,622 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2025-05-13 14:33:33,638 [INFO] Mcu:2032 - Initializing MCU STM32F103C(8-B)Tx STM32F103C8Tx STM32F103C8T6
+2025-05-13 14:33:34,166 [INFO] Context:742 - Trying to add GPIOservice into a context  which must be forbidden
+2025-05-13 14:33:34,435 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2025-05-13 14:33:34,435 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2025-05-13 14:33:34,435 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2025-05-13 14:33:34,435 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2025-05-13 14:33:34,435 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2025-05-13 14:33:34,442 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,443 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,444 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,444 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,444 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,444 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,444 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-05-13 14:33:34,444 [WARN] ModelPack:524 - Component already loaded: STMicroelectronics:HAL Drivers:0.0.0:STMicroelectronics:Device:STMicro_Driver:XSPI:HAL::0.0.1:HAL_XSPI
+2025-05-13 14:33:34,558 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-05-13 14:33:35,483 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-05-13 14:33:35,498 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (ADCFreqValue) has invalid value (36000000)
+2025-05-13 14:33:35,498 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2025-05-13 14:33:35,498 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (MCOFreq_Value) has invalid value (72000000)
+2025-05-13 14:33:35,498 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (72000000)
+2025-05-13 14:33:35,499 [INFO] ImportTextPane:205 - (OptionalMessage_ERROR) IP (TIM1) : Parameter (Channel) has Id (Output Compare2 CH2) currently not set
+2025-05-13 14:33:35,660 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 764437784 Bytes (1073741824)
+2025-05-13 14:33:35,696 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2025-05-13 14:33:35,696 [INFO] ThirdParty:835 - entering critical section [change project]
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.3.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC9 1.0.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.4.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.2
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.1
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.1.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 1.1.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.1.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.1.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.2.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-IPS 3.0.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2025-05-13 14:33:35,696 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.1
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.25.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STBOX1 2.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.2.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DPower 1.2.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.1.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :EmbeddedOffice I-CUBE-FS-RTOS 1.0.1
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Cesanta I-CUBE-Mongoose 7.13.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 2.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 2.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RealThread X-CUBE-RT-Thread_Nano 4.1.1
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC10 1.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :quantropi X-CUBE-qispace-sdk-base 1.9.3
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 4.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.3.1
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.2
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.3.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.7.4
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.9.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.24.2
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.24.1
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfTPM 3.4.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 3.1.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 10.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2025-05-13 14:33:35,697 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.1.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DPower 1.3.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.0.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfMQTT 1.19.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.2
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 9.1.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.6.1
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2025-05-13 14:33:35,698 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSH 1.4.17
+2025-05-13 14:33:35,698 [INFO] ThirdParty:841 - exiting critical section [change project]
+2025-05-13 14:33:35,761 [INFO] PinOutPanel:1561 - setPackage(No Configuration,No Configuration)
+2025-05-13 14:33:35,762 [INFO] PinOutPanel:1561 - setPackage(STM32F103C8Tx,LQFP48)
+2025-05-13 14:33:35,948 [INFO] UtilMem:75 - Before build in PCC Used Memory: 799140880 Bytes (1073741824)
+2025-05-13 14:33:36,231 [INFO] UtilMem:75 - After build in PCC Used Memory: 841083920 Bytes (1073741824)
+2025-05-13 14:33:36,256 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,257 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,257 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,257 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,257 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,257 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,257 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,258 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,258 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,258 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,258 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,258 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,258 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,258 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,259 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,259 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,259 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,259 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,259 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,259 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,260 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,260 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,260 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,260 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,260 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,261 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,261 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 14:33:36,263 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 14:33:36,263 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 14:33:36,339 [INFO] CADModel:165 - CPN selected for project levelSTM32F103C8T6
+2025-05-13 14:33:36,339 [INFO] CADModel:114 - Register for checkConnection events
+2025-05-13 14:33:36,387 [INFO] OpenFileManager:363 - Restore cursor
+2025-05-13 14:33:36,713 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 14:33:36,713 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 14:33:36,713 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 14:33:36,713 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 14:44:46,992 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2025-05-13 14:47:24,561 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 930713400 Bytes (1073741824)
+2025-05-13 14:47:27,074 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 769228944 Bytes (1073741824)
+2025-05-13 14:47:27,160 [INFO] ProjectBuilder:2320 - IP not ready for code generation: Clock
+2025-05-13 14:47:30,270 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-05-13 14:47:30,270 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: TIM1_8F1
+2025-05-13 14:47:30,270 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USB_DEVICE
+2025-05-13 14:47:30,270 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USB
+2025-05-13 14:47:30,270 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 14:47:30,270 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-05-13 14:47:30,270 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-05-13 14:47:30,272 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-05-13 14:47:30,272 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-05-13 14:47:30,272 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-05-13 14:47:30,272 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\
+2025-05-13 14:47:30,276 [WARN] IP:2191 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2025-05-13 14:47:30,276 [WARN] IP:2191 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2025-05-13 14:47:30,336 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp_save
+2025-05-13 14:47:30,421 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\license.tmp
+2025-05-13 14:47:30,472 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp_save
+2025-05-13 14:47:30,550 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\gpio.tmp
+2025-05-13 14:47:30,590 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\usb_vars.tmp_save
+2025-05-13 14:47:30,667 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\usb_vars.tmp
+2025-05-13 14:47:30,674 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\usb_inc.tmp_save
+2025-05-13 14:47:30,747 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\usb_inc.tmp
+2025-05-13 14:47:30,770 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\usb_HalInit.tmp_save
+2025-05-13 14:47:30,854 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\usb_HalInit.tmp
+2025-05-13 14:47:30,866 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\usb_Msp.tmp_save
+2025-05-13 14:47:30,947 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\usb_Msp.tmp
+2025-05-13 14:47:31,056 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-05-13 14:47:31,065 [INFO] Middleware:1439 - No code input for Bsp Dependency
+2025-05-13 14:47:31,081 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\USB_DEVICE\App\usb_device.c_save
+2025-05-13 14:47:31,174 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\USB_DEVICE\App\usb_device.c
+2025-05-13 14:47:31,186 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\USB_DEVICE\App\usb_device.h_save
+2025-05-13 14:47:31,258 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\USB_DEVICE\App\usb_device.h
+2025-05-13 14:47:31,272 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\USB_DEVICE\Target\usbd_conf.h_save
+2025-05-13 14:47:31,352 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\USB_DEVICE\Target\usbd_conf.h
+2025-05-13 14:47:31,363 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\USB_DEVICE\Target\usbd_conf.c_save
+2025-05-13 14:47:31,450 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\USB_DEVICE\Target\usbd_conf.c
+2025-05-13 14:47:31,470 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\USB_DEVICE\App\usbd_desc.h_save
+2025-05-13 14:47:31,541 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\USB_DEVICE\App\usbd_desc.h
+2025-05-13 14:47:31,554 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\USB_DEVICE\App\usbd_desc.c_save
+2025-05-13 14:47:31,639 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\USB_DEVICE\App\usbd_desc.c
+2025-05-13 14:47:31,666 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c_save
+2025-05-13 14:47:31,840 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_it.c
+2025-05-13 14:47:31,846 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h_save
+2025-05-13 14:47:31,917 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_it.h
+2025-05-13 14:47:31,943 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c_save
+2025-05-13 14:47:32,052 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\stm32f1xx_hal_msp.c
+2025-05-13 14:47:32,055 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp_save
+2025-05-13 14:47:32,115 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\MXTmpFiles\system.tmp
+2025-05-13 14:47:32,149 [INFO] CodeEngine:311 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h_save
+2025-05-13 14:47:32,254 [INFO] CodeEngine:335 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\stm32f1xx_hal_conf.h
+2025-05-13 14:47:32,286 [WARN] IPConfigManager:3554 - IP not found : TIM
+2025-05-13 14:47:32,287 [WARN] CodeGenerator:4002 - IP not found : null
+2025-05-13 14:47:32,303 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h_save
+2025-05-13 14:47:32,388 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Inc\main.h
+2025-05-13 14:47:32,400 [INFO] CodeEngine:255 - oldGeneratedFile, E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c_save
+2025-05-13 14:47:32,534 [INFO] CodeEngine:279 - Generated code: E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Core\Src\main.c
+2025-05-13 14:47:32,821 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 150mS.
+2025-05-13 14:47:32,825 [INFO] ProjectBuilder:4828 - Project Generator version: 4.5.0-B34
+2025-05-13 14:47:32,903 [INFO] ConfigFileManager:1531 - The Die is : DIE410
+2025-05-13 14:47:32,917 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-05-13 14:47:32,930 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2025-05-13 14:47:33,748 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 923mS.
+2025-05-13 14:47:33,749 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2025-05-13 14:47:33,752 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.
+2025-05-13 15:22:01,146 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-05-13 15:22:01,147 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-05-13 15:30:10,858 [INFO] Activator:176 - 
+
+
+2025-05-13 15:30:10,862 [INFO] Activator:177 - !SESSION log4j initialized
+2025-05-13 15:30:18,606 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-05-13 15:30:20,235 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256
+2025-05-13 15:30:20,250 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\/mcu/
+2025-05-13 15:30:20,250 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\/plugins/boardmanager/
+2025-05-13 15:30:20,250 [WARN] ApiDb:259 - Overriding images path with different value:  => C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\/plugins/mcufinder/images/
+2025-05-13 15:30:20,266 [INFO] ApiDb:250 - Set database path to: C:\Users\tranc\.stmcufinder\plugins\mcufinder//mcu/
+2025-05-13 15:30:20,267 [INFO] DbMcusAds:125 - Set database path to: C:\Users\tranc\.stmcufinder\plugins\mcufinder//mcu/
+2025-05-13 15:30:20,270 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\tranc\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-05-13 15:30:20,363 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2025-05-13 15:30:20,612 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\/mcu/
+2025-05-13 15:30:20,612 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\/plugins/boardmanager/
+2025-05-13 15:30:20,612 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\/plugins/mcufinder/images/
+2025-05-13 15:30:20,612 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\tranc\.stmcufinder\plugins\mcufinder/ => C:\Users\tranc\.stmcufinder\plugins\mcufinder
+2025-05-13 15:30:20,613 [INFO] ApiDb:250 - Set database path to: C:\Users\tranc\.stmcufinder\plugins\mcufinder//mcu/
+2025-05-13 15:30:20,613 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\tranc\.stmcufinder\plugins\mcufinder/ => C:\Users\tranc\.stmcufinder\plugins\mcufinder
+2025-05-13 15:30:20,613 [INFO] DbMcusAds:125 - Set database path to: C:\Users\tranc\.stmcufinder\plugins\mcufinder//mcu/
+2025-05-13 15:30:20,613 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\tranc\.stmcufinder\plugins\mcufinder/ => C:\Users\tranc\.stmcufinder\plugins\mcufinder
+2025-05-13 15:30:20,613 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\tranc\.stmcufinder\plugins\mcufinder/ => C:\Users\tranc\.stmcufinder\plugins\mcufinder
+2025-05-13 15:30:20,613 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\tranc\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-05-13 15:30:20,963 [INFO] MainPanel:268 - HeapMemory: 268435456
+2025-05-13 15:30:21,084 [INFO] DbMcusXml:78 - Set database path to: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\/mcu/
+2025-05-13 15:30:21,085 [INFO] ApiDb:274 - Set plugin database path to: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\/plugins/boardmanager/
+2025-05-13 15:30:21,085 [INFO] ApiDb:261 - Set plugin images path to: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256\\db\/plugins/mcufinder/images/
+2025-05-13 15:30:21,087 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\tranc\.stmcufinder\plugins\mcufinder/ => C:\Users\tranc\.stmcufinder\plugins\mcufinder
+2025-05-13 15:30:21,087 [INFO] ApiDb:250 - Set database path to: C:\Users\tranc\.stmcufinder\plugins\mcufinder//mcu/
+2025-05-13 15:30:21,087 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\tranc\.stmcufinder\plugins\mcufinder/ => C:\Users\tranc\.stmcufinder\plugins\mcufinder
+2025-05-13 15:30:21,088 [INFO] DbMcusAds:125 - Set database path to: C:\Users\tranc\.stmcufinder\plugins\mcufinder//mcu/
+2025-05-13 15:30:21,088 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\tranc\.stmcufinder\plugins\mcufinder/ => C:\Users\tranc\.stmcufinder\plugins\mcufinder
+2025-05-13 15:30:21,088 [WARN] DbFile:41 - Overriding database path with different value: C:\Users\tranc\.stmcufinder\plugins\mcufinder/ => C:\Users\tranc\.stmcufinder\plugins\mcufinder
+2025-05-13 15:30:21,088 [INFO] CrossReferenceDbSqlite:203 - Set database path to: C:\Users\tranc\.stmcufinder\plugins\mcufinder//mcu/cs/
+2025-05-13 15:30:21,169 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256
+2025-05-13 15:30:21,171 [INFO] PluginManage:196 - Search for loadable plugins [exclusion list=, ]
+2025-05-13 15:30:21,173 [INFO] PluginManage:310 - Check plugin analytics
+2025-05-13 15:30:21,339 [INFO] AnalyticsPlugin:253 - Accepted Software Licenses: STM32CubeMX.6.12.1
+2025-05-13 15:30:21,339 [INFO] AnalyticsPlugin:255 - Accepted CMSIS Pack Licenses: 
+2025-05-13 15:30:21,339 [INFO] AnalyticsPlugin:257 - Accepted Firmware Licenses: FW.WL.1.3.0
+2025-05-13 15:30:21,341 [INFO] PluginManage:359 - Loaded plugin analytics (category:tool,tabindex:-1)
+2025-05-13 15:30:21,342 [INFO] PluginManage:310 - Check plugin cadmodel
+2025-05-13 15:30:21,365 [INFO] CADModel:105 - Init CAD model plugin
+2025-05-13 15:30:21,366 [INFO] PluginManage:359 - Loaded plugin cadmodel (category:power,tabindex:5)
+2025-05-13 15:30:21,366 [INFO] PluginManage:310 - Check plugin clock
+2025-05-13 15:30:21,389 [INFO] PluginManage:359 - Loaded plugin clock (category:base,tabindex:2)
+2025-05-13 15:30:21,389 [INFO] PluginManage:310 - Check plugin ddr
+2025-05-13 15:30:21,392 [INFO] PluginManage:359 - Loaded plugin ddr (category:tool,tabindex:6)
+2025-05-13 15:30:21,392 [INFO] PluginManage:310 - Check plugin filemanager
+2025-05-13 15:30:21,649 [INFO] PluginManage:359 - Loaded plugin filemanager (category:base,tabindex:10)
+2025-05-13 15:30:21,649 [INFO] PluginManage:310 - Check plugin ipmanager
+2025-05-13 15:30:21,657 [INFO] PluginManage:359 - Loaded plugin ipmanager (category:base,tabindex:5)
+2025-05-13 15:30:21,657 [INFO] PluginManage:310 - Check plugin lpbam
+2025-05-13 15:30:21,679 [INFO] PluginManage:359 - Loaded plugin lpbam (category:base,tabindex:0)
+2025-05-13 15:30:21,679 [INFO] PluginManage:310 - Check plugin memorymap
+2025-05-13 15:30:21,710 [INFO] PluginManage:359 - Loaded plugin memorymap (category:base,tabindex:4)
+2025-05-13 15:30:21,710 [INFO] PluginManage:310 - Check plugin pinoutandconfiguration
+2025-05-13 15:30:21,732 [INFO] PluginManage:359 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2025-05-13 15:30:21,733 [INFO] PluginManage:310 - Check plugin pinoutconfig
+2025-05-13 15:30:22,344 [WARN] SupportedApi:132 - Cannot load RTOS API schema: s4s-elt-must-match.1: The content of 'definitions' must match (annotation?, (simpleType | complexType)?, (unique | key | keyref)*)). A problem was found starting at: attribute.
+2025-05-13 15:30:22,486 [INFO] PluginManage:359 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2025-05-13 15:30:22,488 [INFO] PluginManage:310 - Check plugin power
+2025-05-13 15:30:22,512 [INFO] PluginManage:359 - Loaded plugin power (category:power,tabindex:4)
+2025-05-13 15:30:22,512 [INFO] PluginManage:310 - Check plugin projectmanager
+2025-05-13 15:30:22,525 [INFO] PluginManage:359 - Loaded plugin projectmanager (category:projectmanager,tabindex:4)
+2025-05-13 15:30:22,525 [INFO] PluginManage:310 - Check plugin rif
+2025-05-13 15:30:22,544 [INFO] PluginManage:359 - Loaded plugin rif (category:base,tabindex:3)
+2025-05-13 15:30:22,544 [INFO] PluginManage:310 - Check plugin thirdparty
+2025-05-13 15:30:22,751 [INFO] PluginManage:359 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2025-05-13 15:30:22,751 [WARN] IntegrityCheckThread:84 - waiting for thirdparty lock release [integrity check]
+2025-05-13 15:30:22,751 [INFO] PluginManage:310 - Check plugin tools
+2025-05-13 15:30:22,751 [INFO] IntegrityCheckThread:86 - entering critical section [integrity check]
+2025-05-13 15:30:22,751 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2025-05-13 15:30:22,756 [INFO] PluginManage:359 - Loaded plugin tools (category:base,tabindex:7)
+2025-05-13 15:30:22,756 [INFO] PluginManage:310 - Check plugin tutovideos
+2025-05-13 15:30:23,075 [INFO] PluginManage:359 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2025-05-13 15:30:23,075 [INFO] PluginManage:310 - Check plugin updater
+2025-05-13 15:30:23,132 [INFO] PluginManage:359 - Loaded plugin updater (category:base,tabindex:12)
+2025-05-13 15:30:23,132 [INFO] PluginManage:310 - Check plugin userauth
+2025-05-13 15:30:23,138 [INFO] UserAuth:113 - Init User Auth plugin
+2025-05-13 15:30:23,138 [INFO] PluginManage:359 - Loaded plugin userauth (category:base,tabindex:14)
+2025-05-13 15:30:23,139 [INFO] PluginManage:283 - PluginManage : Loaded plugins [18]
+2025-05-13 15:30:24,635 [INFO] PinOutPanel:1561 - setPackage(No Configuration,No Configuration)
+2025-05-13 15:30:24,884 [INFO] CADModel:165 - CPN selected for project level
+2025-05-13 15:30:24,884 [INFO] CADModel:114 - Register for checkConnection events
+2025-05-13 15:30:24,915 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:24,915 [INFO] PluginManager:220 - loadIPPluginJar : add adc
+2025-05-13 15:30:24,968 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:24,968 [INFO] PluginManager:220 - loadIPPluginJar : add aes
+2025-05-13 15:30:25,043 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,043 [INFO] PluginManager:220 - loadIPPluginJar : add can
+2025-05-13 15:30:25,072 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,072 [INFO] PluginManager:220 - loadIPPluginJar : add comp
+2025-05-13 15:30:25,125 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,125 [INFO] PluginManager:220 - loadIPPluginJar : add cryp
+2025-05-13 15:30:25,144 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,146 [INFO] PluginManager:220 - loadIPPluginJar : add ddr_ctrl_phy
+2025-05-13 15:30:25,149 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,149 [INFO] PluginManager:220 - loadIPPluginJar : add dfsdm
+2025-05-13 15:30:25,167 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,168 [INFO] PluginManager:220 - loadIPPluginJar : add dma
+2025-05-13 15:30:25,239 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,239 [INFO] PluginManager:220 - loadIPPluginJar : add dma3
+2025-05-13 15:30:25,314 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,314 [INFO] PluginManager:220 - loadIPPluginJar : add extmemmanager
+2025-05-13 15:30:25,348 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,348 [INFO] PluginManager:220 - loadIPPluginJar : add fatfs
+2025-05-13 15:30:25,425 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,425 [INFO] PluginManager:220 - loadIPPluginJar : add fmc
+2025-05-13 15:30:25,446 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,447 [INFO] PluginManager:220 - loadIPPluginJar : add freertos
+2025-05-13 15:30:25,449 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,449 [INFO] PluginManager:220 - loadIPPluginJar : add genericplugin
+2025-05-13 15:30:25,609 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,609 [INFO] PluginManager:220 - loadIPPluginJar : add gfxmmu
+2025-05-13 15:30:25,754 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [2/15]
+2025-05-13 15:30:25,811 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,811 [INFO] PluginManager:220 - loadIPPluginJar : add gic
+2025-05-13 15:30:25,828 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,828 [INFO] PluginManager:220 - loadIPPluginJar : add gpio
+2025-05-13 15:30:25,971 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,971 [INFO] PluginManager:220 - loadIPPluginJar : add gtzc
+2025-05-13 15:30:25,975 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:25,975 [INFO] PluginManager:220 - loadIPPluginJar : add hash
+2025-05-13 15:30:26,041 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,041 [INFO] PluginManager:220 - loadIPPluginJar : add i2c
+2025-05-13 15:30:26,095 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,095 [INFO] PluginManager:220 - loadIPPluginJar : add i2s
+2025-05-13 15:30:26,160 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,160 [INFO] PluginManager:220 - loadIPPluginJar : add i3c
+2025-05-13 15:30:26,302 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,303 [INFO] PluginManager:220 - loadIPPluginJar : add ipddr
+2025-05-13 15:30:26,592 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,592 [INFO] PluginManager:220 - loadIPPluginJar : add linkedlist
+2025-05-13 15:30:26,596 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,596 [INFO] PluginManager:220 - loadIPPluginJar : add lorawan
+2025-05-13 15:30:26,656 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,656 [INFO] PluginManager:220 - loadIPPluginJar : add ltdc
+2025-05-13 15:30:26,674 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,675 [INFO] PluginManager:220 - loadIPPluginJar : add mdma
+2025-05-13 15:30:26,688 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,688 [INFO] PluginManager:220 - loadIPPluginJar : add nvic
+2025-05-13 15:30:26,745 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,745 [INFO] PluginManager:220 - loadIPPluginJar : add opamp
+2025-05-13 15:30:26,847 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,847 [INFO] PluginManager:220 - loadIPPluginJar : add openamp
+2025-05-13 15:30:26,913 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,913 [INFO] PluginManager:220 - loadIPPluginJar : add pdm2pcm
+2025-05-13 15:30:26,931 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,934 [INFO] PluginManager:220 - loadIPPluginJar : add plateformsettings
+2025-05-13 15:30:26,936 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,936 [INFO] PluginManager:220 - loadIPPluginJar : add quadspi
+2025-05-13 15:30:26,939 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,939 [INFO] PluginManager:220 - loadIPPluginJar : add radio
+2025-05-13 15:30:26,955 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:26,956 [INFO] PluginManager:220 - loadIPPluginJar : add resmgrutility
+2025-05-13 15:30:27,029 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:27,029 [INFO] PluginManager:220 - loadIPPluginJar : add sai
+2025-05-13 15:30:27,085 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:27,085 [INFO] PluginManager:220 - loadIPPluginJar : add spi
+2025-05-13 15:30:27,207 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:27,208 [INFO] PluginManager:220 - loadIPPluginJar : add stm32_wpan
+2025-05-13 15:30:27,211 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:27,211 [INFO] PluginManager:220 - loadIPPluginJar : add tim
+2025-05-13 15:30:27,313 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:27,314 [INFO] PluginManager:220 - loadIPPluginJar : add touchsensing
+2025-05-13 15:30:27,319 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:27,319 [INFO] PluginManager:220 - loadIPPluginJar : add tracer_emb
+2025-05-13 15:30:27,323 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:27,324 [INFO] PluginManager:220 - loadIPPluginJar : add ts
+2025-05-13 15:30:27,359 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:27,359 [INFO] PluginManager:220 - loadIPPluginJar : add tsc
+2025-05-13 15:30:27,362 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:27,362 [INFO] PluginManager:220 - loadIPPluginJar : add ucpd
+2025-05-13 15:30:27,422 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:27,422 [INFO] PluginManager:220 - loadIPPluginJar : add usart
+2025-05-13 15:30:27,476 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-05-13 15:30:27,476 [INFO] PluginManager:220 - loadIPPluginJar : add usbx
+2025-05-13 15:30:27,598 [INFO] CADModel:165 - CPN selected for project level
+2025-05-13 15:30:27,598 [INFO] CADModel:114 - Register for checkConnection events
+2025-05-13 15:30:27,598 [FATAL] Updater:334 - Updater called before beeing initialized
+2025-05-13 15:30:27,598 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2025-05-13 15:30:27,731 [INFO] CADModel:165 - CPN selected for project level
+2025-05-13 15:30:27,731 [INFO] CADModel:114 - Register for checkConnection events
+2025-05-13 15:30:27,731 [FATAL] Updater:334 - Updater called before beeing initialized
+2025-05-13 15:30:27,731 [ERROR] CADModel:125 - Updater not yet initialized, retry later 
+2025-05-13 15:30:27,734 [FATAL] Updater:334 - Updater called before beeing initialized
+2025-05-13 15:30:27,836 [FATAL] Updater:334 - Updater called before beeing initialized
+2025-05-13 15:30:27,841 [INFO] DbMcusAds:53 - JSON generation date=Wed May 07 16:07:55 ICT 2025 (1746608875513)
+2025-05-13 15:30:27,841 [FATAL] Updater:334 - Updater called before beeing initialized
+2025-05-13 15:30:27,877 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2025-05-13 15:30:27,955 [FATAL] Updater:334 - Updater called before beeing initialized
+2025-05-13 15:30:27,957 [FATAL] Updater:334 - Updater called before beeing initialized
+2025-05-13 15:30:27,957 [FATAL] Updater:334 - Updater called before beeing initialized
+2025-05-13 15:30:27,957 [WARN] DetailPanel:346 - Failed to get advertising image, set to default
+2025-05-13 15:30:27,957 [FATAL] Updater:334 - Updater called before beeing initialized
+2025-05-13 15:30:28,754 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [3/15]
+2025-05-13 15:30:28,966 [ERROR] Updater:1164 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2025-05-13 15:30:28,982 [INFO] Updater:1100 - Updater Version found : 6.12.1
+2025-05-13 15:30:29,006 [INFO] ApplicationProperties:184 - Using Application install path: C:\ST\STM32CubeIDE_1.16.1\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.1.202409122256
+2025-05-13 15:30:29,539 [INFO] McuFinderGlobals:63 - Set McuFinder mode to 2 (CubeIDE integrated)
+2025-05-13 15:30:30,580 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] May 13, 2025 3:30:30 PM java.util.prefs.WindowsPreferences <init>
+2025-05-13 15:30:30,581 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] WARNING: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0xffffffff80000002. Windows RegCreateKeyEx(...) returned error code 5.
+2025-05-13 15:30:30,581 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-05-13 15:30:30,923 [INFO] MainUpdater:2873 - connection check result : 10
+2025-05-13 15:30:30,924 [INFO] MainUpdater:290 - Updater Check For Update Now.
+2025-05-13 15:30:30,924 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.121
+2025-05-13 15:30:30,944 [INFO] McuFinderGlobals:63 - Set McuFinder mode to 2 (CubeIDE integrated)
+2025-05-13 15:30:30,945 [INFO] UserAuth:417 - Internet connection configuration mode: 1
+2025-05-13 15:30:30,969 [INFO] JxBrowserEngine:152 - Initiate JxBrowser Engine with user profile folder
+2025-05-13 15:30:31,106 [INFO] CheckServerUpdateThread:120 - End of CheckServer Thread
+2025-05-13 15:30:31,161 [INFO] MainUpdater:2873 - connection check result : 10
+2025-05-13 15:30:31,163 [INFO] MainUpdater:2873 - connection check result : 10
+2025-05-13 15:30:31,270 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2025-05-13 15:30:31,288 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2025-05-13 15:30:31,293 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-05-13 15:30:31,293 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.121
+2025-05-13 15:30:31,309 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
