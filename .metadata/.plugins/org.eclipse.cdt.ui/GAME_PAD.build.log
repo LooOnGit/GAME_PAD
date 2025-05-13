@@ -1,10 +1,10 @@
-10:36:43 **** Incremental Build of configuration Debug for project GAME_PAD ****
+14:17:26 **** Incremental Build of configuration Debug for project GAME_PAD ****
 make -j12 all 
 arm-none-eabi-size  GAME_PAD.elf 
    text	   data	    bss	    dec	    hex	filename
-   7636	     12	   1652	   9300	   2454	GAME_PAD.elf
+  15128	     12	   1828	  16968	   4248	GAME_PAD.elf
 Finished building: default.size.stdout
  
 
-10:36:43 Build Finished. 0 errors, 0 warnings. (took 248ms)
+14:17:26 Build Finished. 0 errors, 0 warnings. (took 247ms)
 
