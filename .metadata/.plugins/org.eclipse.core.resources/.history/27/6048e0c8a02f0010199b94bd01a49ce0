@@ -127,7 +127,7 @@ int main(void)
   MX_GPIO_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
-  MCP23017_EnablePullUps();
+//  MCP23017_EnablePullUps();
   /* USER CODE END 2 */
 
   /* Infinite loop */

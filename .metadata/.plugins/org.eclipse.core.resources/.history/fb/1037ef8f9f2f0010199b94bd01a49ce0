@@ -86,10 +86,6 @@ uint8_t MCP23017_Read_GPIOB()
     return value;
 }
 
-void MCP23017_WriteRegister(uint8_t reg, uint8_t value) {
-    HAL_I2C_Mem_Write(&hi2c1, MCP23017_ADDR, reg, I2C_MEMADD_SIZE_8BIT, &value, 1, HAL_MAX_DELAY);
-}
-
 void MCP23017_EnablePullUps() {
     MCP23017_WriteRegister(0x0C, 0xFF); // GPPUA - bật pull-up cho tất cả chân A
     MCP23017_WriteRegister(0x0D, 0xFF); // GPPUB - bật pull-up cho tất cả chân B
@@ -127,7 +123,7 @@ int main(void)
   MX_GPIO_Init();
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
-  MCP23017_EnablePullUps();
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
