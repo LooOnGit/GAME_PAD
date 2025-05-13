@@ -136,8 +136,8 @@ void TLC59116_Set_All_PWM_Mode(I2C_HandleTypeDef *hi2c) {
 }
 
 void TLC59116_Set_PWM(I2C_HandleTypeDef *hi2c, uint8_t channel, uint8_t value) {
-    if (channel > 15) return;
-    uint8_t reg = 0x02 + channel;
+    if (channel > 15) return; // bảo vệ
+    uint8_t reg = 0x02 + channel; // PWM0 = 0x02
     HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, reg, I2C_MEMADD_SIZE_8BIT, &value, 1, HAL_MAX_DELAY);
 }
 /* USER CODE END 0 */
@@ -219,13 +219,13 @@ int main(void)
 //	    HAL_Delay(1000);
 
 	    for (uint8_t i = 0; i <= 255; i++) {
-	    	for(uint8_t j = 0; j < 14; j++){
+	    	for(uint8_t j = 0; j < 12; j++){
 		        TLC59116_Set_PWM(&hi2c1, j, i); // Tăng độ sáng OUT0
 	    	}
 	        HAL_Delay(10);
 	    }
 	    for (int i = 255; i >= 0; i--) {
-	    	for(uint8_t j = 0; j < 14; j++){
+	    	for(uint8_t j = 0; j < 12; j++){
 		        TLC59116_Set_PWM(&hi2c1, j, i); // Tăng độ sáng OUT0
 	    	}
 	        HAL_Delay(10);

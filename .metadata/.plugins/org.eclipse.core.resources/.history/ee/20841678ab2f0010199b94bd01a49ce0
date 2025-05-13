@@ -219,13 +219,13 @@ int main(void)
 //	    HAL_Delay(1000);
 
 	    for (uint8_t i = 0; i <= 255; i++) {
-	    	for(uint8_t j = 0; j < 14; j++){
+	    	for(uint8_t j = 0; j < 12; j++){
 		        TLC59116_Set_PWM(&hi2c1, j, i); // Tăng độ sáng OUT0
 	    	}
 	        HAL_Delay(10);
 	    }
 	    for (int i = 255; i >= 0; i--) {
-	    	for(uint8_t j = 0; j < 14; j++){
+	    	for(uint8_t j = 0; j < 12; j++){
 		        TLC59116_Set_PWM(&hi2c1, j, i); // Tăng độ sáng OUT0
 	    	}
 	        HAL_Delay(10);
