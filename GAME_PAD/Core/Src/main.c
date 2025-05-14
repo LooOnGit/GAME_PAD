@@ -25,7 +25,7 @@
 //#include "usbd_cdc_if.h"
 #include "usbd_hid.h"
 #include "string.h"
-//#include "MCP27013.h"
+#include "MCP23017.h"
 #include "TLC59116.h"
 /* USER CODE END Includes */
 
@@ -90,37 +90,6 @@ volatile short pulse2=0;
 
 uint8_t click_report[REPORT_SIZE] = {0};
 
-void MCP23017_Init()
-{
-    uint8_t iodir = 0xFF; // Tất cả chân input
-
-    // Cấu hình cả PORTA và PORTB là input
-    HAL_I2C_Mem_Write(&hi2c1, MCP23017_ADDR, IODIRA_REG, 1, &iodir, 1, HAL_MAX_DELAY);
-    HAL_I2C_Mem_Write(&hi2c1, MCP23017_ADDR, IODIRB_REG, 1, &iodir, 1, HAL_MAX_DELAY);
-}
-
-uint8_t MCP23017_Read_GPIOA()
-{
-    uint8_t value;
-    HAL_I2C_Mem_Read(&hi2c1, MCP23017_ADDR, GPIOA_REG, 1, &value, 1, HAL_MAX_DELAY);
-    return value;
-}
-
-uint8_t MCP23017_Read_GPIOB()
-{
-    uint8_t value;
-    HAL_I2C_Mem_Read(&hi2c1, MCP23017_ADDR, GPIOB_REG, 1, &value, 1, HAL_MAX_DELAY);
-    return value;
-}
-
-void MCP23017_WriteRegister(uint8_t reg, uint8_t value) {
-    HAL_I2C_Mem_Write(&hi2c1, MCP23017_ADDR, reg, I2C_MEMADD_SIZE_8BIT, &value, 1, HAL_MAX_DELAY);
-}
-
-void MCP23017_EnablePullUps() {
-    MCP23017_WriteRegister(0x0C, 0xFF); // GPPUA - bật pull-up cho tất cả chân A
-    MCP23017_WriteRegister(0x0D, 0xFF); // GPPUB - bật pull-up cho tất cả chân B
-}
 
 /* USER CODE END 0 */
 
@@ -161,14 +130,14 @@ int main(void)
   MX_TIM2_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
-  MCP23017_Init();
+  MCP23017_Init(&hi2c1);
   MCP23017_EnablePullUps(&hi2c1);
 
   //mode digital
-//  TLC59116_Init(&hi2c1);
+  TLC59116_Init(&hi2c1);
 
   //mode pwm
-//  TLC59116_Set_All_PWM_Mode(&hi2c1);
+  TLC59116_Set_All_PWM_Mode(&hi2c1);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
   HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_2);
   HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_1 | TIM_CHANNEL_2);
@@ -184,52 +153,49 @@ int main(void)
     /* USER CODE BEGIN 3 */
 	pulse1 = __HAL_TIM_GET_COUNTER(&htim2);
 	pulse2 = __HAL_TIM_GET_COUNTER(&htim3);
-	if(pulse1 > 0){
-		click_report[0] = 1; //click
-		click_report[1] = pulse1;			//x
-		click_report[2] = pulse2;			//y
-		click_report[3] = 0;			//wheel
-		click_report[4] = 0;			//motion wakeup
-		pulse1 = 0;
-		pulse2 = 0;
-	}
-	if(pulse2 > 0){
-		click_report[0] = 2; //click
-		click_report[1] = pulse1;			//x
-		click_report[2] = pulse2;			//y
-		click_report[3] = 0;			//wheel
-		click_report[4] = 0;			//motion wakeup
-		pulse2 = 0;
-		pulse1 = 0;
-	}
+//	if(pulse1 > 0){
+//		click_report[0] = 1; //click
+//		click_report[1] = pulse1;			//x
+//		click_report[2] = pulse2;			//y
+//		click_report[3] = 0;			//wheel
+//		click_report[4] = 0;			//motion wakeup
+//		pulse1 = 0;
+//		pulse2 = 0;
+//	}
+//	if(pulse2 > 0){
+//		click_report[0] = 2; //click
+//		click_report[1] = pulse1;			//x
+//		click_report[2] = pulse2;			//y
+//		click_report[3] = 0;			//wheel
+//		click_report[4] = 0;			//motion wakeup
+//		pulse2 = 0;
+//		pulse1 = 0;
+//	}
 
-
-
-	HAL_Delay(100);
-	USBD_HID_SendReport(&hUsbDeviceFS,click_report,5);
+//	USBD_HID_SendReport(&hUsbDeviceFS,click_report,5);
 
 ////	  read button
-//    portA = MCP23017_Read_GPIOA(&hi2c1);
-//    portB = MCP23017_Read_GPIOB(&hi2c1);
-//
-//
+    portA = MCP23017_Read_GPIOA(&hi2c1);
+    portB = MCP23017_Read_GPIOB(&hi2c1);
+
+
 //	//control led follow PWM
-//    HAL_ADC_Start(&hadc1);
-//    HAL_ADC_PollForConversion(&hadc1, 100);
-//    ADC_VAL = HAL_ADC_GetValue(&hadc1);
-//    HAL_ADC_Stop(&hadc1);
-//    value_ledPWM = (ADC_VAL * 255)/4095;
-//	for(uint8_t j = 0; j < 14; j++){
-//		TLC59116_Set_PWM(&hi2c1, j, value_ledPWM); // Tăng độ sáng OUT0
-//	}
+    HAL_ADC_Start(&hadc1);
+    HAL_ADC_PollForConversion(&hadc1, 100);
+    ADC_VAL = HAL_ADC_GetValue(&hadc1);
+    HAL_ADC_Stop(&hadc1);
+    value_ledPWM = (ADC_VAL * 255)/4095;
+	for(uint8_t j = 0; j < 14; j++){
+		TLC59116_Set_PWM(&hi2c1, j, value_ledPWM); // Tăng độ sáng OUT0
+	}
 //
 //	//control lcd light
-//	HAL_ADC_Start(&hadc2);
-//	HAL_ADC_PollForConversion(&hadc2, 100);
-//	ADC_VAL = HAL_ADC_GetValue(&hadc2);
-//	HAL_ADC_Stop(&hadc2);
-//	value_lcdPWM = (ADC_VAL * 800)/4096;
-//    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, value_lcdPWM);
+	HAL_ADC_Start(&hadc2);
+	HAL_ADC_PollForConversion(&hadc2, 100);
+	ADC_VAL = HAL_ADC_GetValue(&hadc2);
+	HAL_ADC_Stop(&hadc2);
+	value_lcdPWM = (ADC_VAL * 800)/4096;
+    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, value_lcdPWM);
 
 
   }

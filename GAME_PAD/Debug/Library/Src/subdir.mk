@@ -5,15 +5,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../Library/Src/MCP27013.c \
+../Library/Src/MCP23017.c \
 ../Library/Src/TLC59116.c 
 
 OBJS += \
-./Library/Src/MCP27013.o \
+./Library/Src/MCP23017.o \
 ./Library/Src/TLC59116.o 
 
 C_DEPS += \
-./Library/Src/MCP27013.d \
+./Library/Src/MCP23017.d \
 ./Library/Src/TLC59116.d 
 
 
@@ -24,7 +24,7 @@ Library/Src/%.o Library/Src/%.su Library/Src/%.cyclo: ../Library/Src/%.c Library
 clean: clean-Library-2f-Src
 
 clean-Library-2f-Src:
-	-$(RM) ./Library/Src/MCP27013.cyclo ./Library/Src/MCP27013.d ./Library/Src/MCP27013.o ./Library/Src/MCP27013.su ./Library/Src/TLC59116.cyclo ./Library/Src/TLC59116.d ./Library/Src/TLC59116.o ./Library/Src/TLC59116.su
+	-$(RM) ./Library/Src/MCP23017.cyclo ./Library/Src/MCP23017.d ./Library/Src/MCP23017.o ./Library/Src/MCP23017.su ./Library/Src/TLC59116.cyclo ./Library/Src/TLC59116.d ./Library/Src/TLC59116.o ./Library/Src/TLC59116.su
 
 .PHONY: clean-Library-2f-Src
 
