@@ -1,0 +1,3 @@
+Library/Src/MCP27013.o: ../Library/Src/MCP27013.c \
+ E:/Pikotech/PROJECT/FIRMWARE/GAME_PAD/GAME_PAD/Library/Inc/MCP27013.h
+E:/Pikotech/PROJECT/FIRMWARE/GAME_PAD/GAME_PAD/Library/Inc/MCP27013.h:

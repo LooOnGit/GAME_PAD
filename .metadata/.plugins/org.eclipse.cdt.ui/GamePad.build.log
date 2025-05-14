@@ -1,0 +1,10 @@
+14:44:30 **** Incremental Build of configuration Debug for project GamePad ****
+make -j12 all 
+arm-none-eabi-size  GamePad.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5592	     12	   1652	   7256	   1c58	GamePad.elf
+Finished building: default.size.stdout
+ 
+
+14:44:30 Build Finished. 0 errors, 0 warnings. (took 248ms)
+
