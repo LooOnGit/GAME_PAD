@@ -23,8 +23,9 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 //#include "usbd_cdc_if.h"
+#include "usbd_hid.h"
 #include "string.h"
-#include "MCP27013.h"
+//#include "MCP27013.h"
 #include "TLC59116.h"
 /* USER CODE END Includes */
 
@@ -34,8 +35,15 @@
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
-///* USER CODE BEGIN PD */
+/* USER CODE BEGIN PD */
+#define MCP23017_ADDR     (0x20 << 1) // Dịch trái 1 bit theo chuẩn HAL
+#define IODIRA_REG        0x00
+#define GPIOA_REG         0x12
+#define IODIRB_REG        0x01
+#define GPIOB_REG         0x13
 
+#define REPORT_SIZE 5
+extern USBD_HandleTypeDef hUsbDeviceFS;
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -50,6 +58,8 @@ ADC_HandleTypeDef hadc2;
 I2C_HandleTypeDef hi2c1;
 
 TIM_HandleTypeDef htim1;
+TIM_HandleTypeDef htim2;
+TIM_HandleTypeDef htim3;
 
 /* USER CODE BEGIN PV */
 uint8_t portA;
@@ -62,6 +72,8 @@ static void MX_I2C1_Init(void);
 static void MX_ADC1_Init(void);
 static void MX_ADC2_Init(void);
 static void MX_TIM1_Init(void);
+static void MX_TIM2_Init(void);
+static void MX_TIM3_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -72,6 +84,44 @@ uint8_t portA;
 uint8_t portB;
 int ADC_VAL;
 int value_ledPWM;
+int value_lcdPWM;
+volatile short pulse1=0;
+volatile short pulse2=0;
+
+uint8_t click_report[REPORT_SIZE] = {0};
+
+void MCP23017_Init()
+{
+    uint8_t iodir = 0xFF; // Tất cả chân input
+
+    // Cấu hình cả PORTA và PORTB là input
+    HAL_I2C_Mem_Write(&hi2c1, MCP23017_ADDR, IODIRA_REG, 1, &iodir, 1, HAL_MAX_DELAY);
+    HAL_I2C_Mem_Write(&hi2c1, MCP23017_ADDR, IODIRB_REG, 1, &iodir, 1, HAL_MAX_DELAY);
+}
+
+uint8_t MCP23017_Read_GPIOA()
+{
+    uint8_t value;
+    HAL_I2C_Mem_Read(&hi2c1, MCP23017_ADDR, GPIOA_REG, 1, &value, 1, HAL_MAX_DELAY);
+    return value;
+}
+
+uint8_t MCP23017_Read_GPIOB()
+{
+    uint8_t value;
+    HAL_I2C_Mem_Read(&hi2c1, MCP23017_ADDR, GPIOB_REG, 1, &value, 1, HAL_MAX_DELAY);
+    return value;
+}
+
+void MCP23017_WriteRegister(uint8_t reg, uint8_t value) {
+    HAL_I2C_Mem_Write(&hi2c1, MCP23017_ADDR, reg, I2C_MEMADD_SIZE_8BIT, &value, 1, HAL_MAX_DELAY);
+}
+
+void MCP23017_EnablePullUps() {
+    MCP23017_WriteRegister(0x0C, 0xFF); // GPPUA - bật pull-up cho tất cả chân A
+    MCP23017_WriteRegister(0x0D, 0xFF); // GPPUB - bật pull-up cho tất cả chân B
+}
+
 /* USER CODE END 0 */
 
 /**
@@ -108,17 +158,21 @@ int main(void)
   MX_ADC2_Init();
   MX_TIM1_Init();
   MX_USB_DEVICE_Init();
+  MX_TIM2_Init();
+  MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
-  MCP23017_EnablePullUps();
+  MCP23017_Init();
+  MCP23017_EnablePullUps(&hi2c1);
 
   //mode digital
-  TLC59116_Init(&hi2c1);
+//  TLC59116_Init(&hi2c1);
 
   //mode pwm
-  TLC59116_Set_All_PWM_Mode(&hi2c1);
+//  TLC59116_Set_All_PWM_Mode(&hi2c1);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
-//  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);     // Nếu bạn dùng CH2 chính
-  HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_2);  // CH2N → xuất ra PB14
+  HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_2);
+  HAL_TIM_Encoder_Start(&htim2, TIM_CHANNEL_1 | TIM_CHANNEL_2);
+  HAL_TIM_Encoder_Start(&htim3, TIM_CHANNEL_1 | TIM_CHANNEL_2);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -128,73 +182,54 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-//	  read button
-//    portA = MCP23017_Read_GPIOA();
-//    portB = MCP23017_Read_GPIOB();
-//      int found = 0;
-//		for(uint16_t i2c=1; i2c<128; i2c++)
-//		{
-//			if (HAL_I2C_IsDeviceReady(&hi2c1, 0x60<<1, 5, 100) == HAL_OK)
-//			{
-//				found = 1;
-//				HAL_Delay(500);
-//			 }
-//			 HAL_Delay(5);
-//		 }
-//		 if (!found)
-//		 {
-//			  HAL_Delay(500);
-//		 }
-//	  }
-//	    TLC59116_LED_ON(&hi2c1);
-//	    HAL_Delay(1000);
-//	    TLC59116_LED_OFF(&hi2c1);
-//	    HAL_Delay(1000);
-
-	  //on all led
-//	    TLC59116_LED_ALL_ON(&hi2c1);
-//	    HAL_Delay(1000);
-//
-//	    for (uint8_t i = 0; i <= 255; i++) {
-//	    	for(uint8_t j = 0; j < 14; j++){
-//		        TLC59116_Set_PWM(&hi2c1, j, i); // Tăng độ sáng OUT0
-//	    	}
-//	        HAL_Delay(10);
-//	    }
-//	    for (int i = 255; i >= 0; i--) {
-//	    	for(uint8_t j = 0; j < 14; j++){
-//		        TLC59116_Set_PWM(&hi2c1, j, i); // Tăng độ sáng OUT0
-//	    	}
-//	        HAL_Delay(10);
-//	    }
-	//control led follow PWM
-    HAL_ADC_Start(&hadc1);
-    HAL_ADC_PollForConversion(&hadc1, 100);
-    ADC_VAL = HAL_ADC_GetValue(&hadc1);
-    HAL_ADC_Stop(&hadc1);
-    value_ledPWM = (ADC_VAL * 255)/4095;
-	for(uint8_t j = 0; j < 14; j++){
-		TLC59116_Set_PWM(&hi2c1, j, value_ledPWM); // Tăng độ sáng OUT0
+	pulse1 = __HAL_TIM_GET_COUNTER(&htim2);
+	pulse2 = __HAL_TIM_GET_COUNTER(&htim3);
+	if(pulse1 > 0){
+		click_report[0] = 1; //click
+		click_report[1] = pulse1;			//x
+		click_report[2] = pulse2;			//y
+		click_report[3] = 0;			//wheel
+		click_report[4] = 0;			//motion wakeup
+		pulse1 = 0;
+		pulse2 = 0;
+	}
+	if(pulse2 > 0){
+		click_report[0] = 2; //click
+		click_report[1] = pulse1;			//x
+		click_report[2] = pulse2;			//y
+		click_report[3] = 0;			//wheel
+		click_report[4] = 0;			//motion wakeup
+		pulse2 = 0;
+		pulse1 = 0;
 	}
 
-	HAL_ADC_Start(&hadc2);
-	HAL_ADC_PollForConversion(&hadc2, 100);
-	ADC_VAL = HAL_ADC_GetValue(&hadc2);
-	HAL_ADC_Stop(&hadc2);
-	value_ledPWM = (ADC_VAL * 800)/4096;
 
-    // �?i�?u khiển PWM: Tăng dần từ 0 đến 100%
-//    for (uint16_t i = 0; i < 800; i++) {
-//        __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, i);  // Thay đổi duty cycle
-//        HAL_Delay(10); // Delay để quan sát thay đổi
-//    }
-    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, value_ledPWM);
-    // �?i�?u khiển PWM: Giảm dần từ 100% xuống 0%
-//    for (uint16_t i = 799; i >= 0; i--) {
-//        __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, i);  // Thay đổi duty cycle
-//        HAL_Delay(10); // Delay để quan sát thay đổi
-//    }
-//	  __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, i);
+
+	HAL_Delay(100);
+	USBD_HID_SendReport(&hUsbDeviceFS,click_report,5);
+
+////	  read button
+//    portA = MCP23017_Read_GPIOA(&hi2c1);
+//    portB = MCP23017_Read_GPIOB(&hi2c1);
+//
+//
+//	//control led follow PWM
+//    HAL_ADC_Start(&hadc1);
+//    HAL_ADC_PollForConversion(&hadc1, 100);
+//    ADC_VAL = HAL_ADC_GetValue(&hadc1);
+//    HAL_ADC_Stop(&hadc1);
+//    value_ledPWM = (ADC_VAL * 255)/4095;
+//	for(uint8_t j = 0; j < 14; j++){
+//		TLC59116_Set_PWM(&hi2c1, j, value_ledPWM); // Tăng độ sáng OUT0
+//	}
+//
+//	//control lcd light
+//	HAL_ADC_Start(&hadc2);
+//	HAL_ADC_PollForConversion(&hadc2, 100);
+//	ADC_VAL = HAL_ADC_GetValue(&hadc2);
+//	HAL_ADC_Stop(&hadc2);
+//	value_lcdPWM = (ADC_VAL * 800)/4096;
+//    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, value_lcdPWM);
 
 
   }
@@ -241,8 +276,8 @@ void SystemClock_Config(void)
     Error_Handler();
   }
   PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_ADC|RCC_PERIPHCLK_USB;
-  PeriphClkInit.AdcClockSelection = RCC_ADCPCLK2_DIV2;
-  PeriphClkInit.UsbClockSelection = RCC_USBCLKSOURCE_PLL;
+  PeriphClkInit.AdcClockSelection = RCC_ADCPCLK2_DIV6;
+  PeriphClkInit.UsbClockSelection = RCC_USBCLKSOURCE_PLL_DIV1_5;
   if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
   {
     Error_Handler();
@@ -449,6 +484,104 @@ static void MX_TIM1_Init(void)
 
   /* USER CODE END TIM1_Init 2 */
   HAL_TIM_MspPostInit(&htim1);
+
+}
+
+/**
+  * @brief TIM2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM2_Init(void)
+{
+
+  /* USER CODE BEGIN TIM2_Init 0 */
+
+  /* USER CODE END TIM2_Init 0 */
+
+  TIM_Encoder_InitTypeDef sConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM2_Init 1 */
+
+  /* USER CODE END TIM2_Init 1 */
+  htim2.Instance = TIM2;
+  htim2.Init.Prescaler = 0;
+  htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim2.Init.Period = 65535;
+  htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  sConfig.EncoderMode = TIM_ENCODERMODE_TI12;
+  sConfig.IC1Polarity = TIM_ICPOLARITY_RISING;
+  sConfig.IC1Selection = TIM_ICSELECTION_DIRECTTI;
+  sConfig.IC1Prescaler = TIM_ICPSC_DIV1;
+  sConfig.IC1Filter = 0;
+  sConfig.IC2Polarity = TIM_ICPOLARITY_RISING;
+  sConfig.IC2Selection = TIM_ICSELECTION_DIRECTTI;
+  sConfig.IC2Prescaler = TIM_ICPSC_DIV1;
+  sConfig.IC2Filter = 0;
+  if (HAL_TIM_Encoder_Init(&htim2, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim2, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM2_Init 2 */
+
+  /* USER CODE END TIM2_Init 2 */
+
+}
+
+/**
+  * @brief TIM3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM3_Init(void)
+{
+
+  /* USER CODE BEGIN TIM3_Init 0 */
+
+  /* USER CODE END TIM3_Init 0 */
+
+  TIM_Encoder_InitTypeDef sConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+
+  /* USER CODE BEGIN TIM3_Init 1 */
+
+  /* USER CODE END TIM3_Init 1 */
+  htim3.Instance = TIM3;
+  htim3.Init.Prescaler = 0;
+  htim3.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim3.Init.Period = 65535;
+  htim3.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim3.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  sConfig.EncoderMode = TIM_ENCODERMODE_TI12;
+  sConfig.IC1Polarity = TIM_ICPOLARITY_RISING;
+  sConfig.IC1Selection = TIM_ICSELECTION_DIRECTTI;
+  sConfig.IC1Prescaler = TIM_ICPSC_DIV1;
+  sConfig.IC1Filter = 0;
+  sConfig.IC2Polarity = TIM_ICPOLARITY_RISING;
+  sConfig.IC2Selection = TIM_ICSELECTION_DIRECTTI;
+  sConfig.IC2Prescaler = TIM_ICPSC_DIV1;
+  sConfig.IC2Filter = 0;
+  if (HAL_TIM_Encoder_Init(&htim3, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_RESET;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim3, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM3_Init 2 */
+
+  /* USER CODE END TIM3_Init 2 */
 
 }
 

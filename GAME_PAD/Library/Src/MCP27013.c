@@ -1,33 +1,33 @@
 #include "MCP27013.h"
 
-void MCP23017_Init(I2C_HandleTypeDef *hi2c)
-{
-    uint8_t iodir = 0xFF; // Tất cả chân input
-
-    // Cấu hình cả PORTA và PORTB là input
-    HAL_I2C_Mem_Write(hi2c, MCP23017_ADDR, IODIRA_REG, 1, &iodir, 1, HAL_MAX_DELAY);
-    HAL_I2C_Mem_Write(hi2c, MCP23017_ADDR, IODIRB_REG, 1, &iodir, 1, HAL_MAX_DELAY);
-}
-
-uint8_t MCP23017_Read_GPIOA(I2C_HandleTypeDef *hi2c)
-{
-    uint8_t value;
-    HAL_I2C_Mem_Read(hi2c, MCP23017_ADDR, GPIOA_REG, 1, &value, 1, HAL_MAX_DELAY);
-    return value;
-}
-
-uint8_t MCP23017_Read_GPIOB(I2C_HandleTypeDef *hi2c)
-{
-    uint8_t value;
-    HAL_I2C_Mem_Read(hi2c, MCP23017_ADDR, GPIOB_REG, 1, &value, 1, HAL_MAX_DELAY);
-    return value;
-}
-
-void MCP23017_WriteRegister(I2C_HandleTypeDef *hi2c, uint8_t reg, uint8_t value) {
-    HAL_I2C_Mem_Write(hi2c, MCP23017_ADDR, reg, I2C_MEMADD_SIZE_8BIT, &value, 1, HAL_MAX_DELAY);
-}
-
-void MCP23017_EnablePullUps(I2C_HandleTypeDef *hi2c) {
-    MCP23017_WriteRegister(hi2c, 0x0C, 0xFF);
-    MCP23017_WriteRegister(hi2c, 0x0D, 0xFF);
-}
+//void MCP23017_Init(I2C_HandleTypeDef *hi2c)
+//{
+//    uint8_t iodir = 0xFF; // Tất cả chân input
+//
+//    // Cấu hình cả PORTA và PORTB là input
+//    HAL_I2C_Mem_Write(hi2c, MCP23017_ADDR, IODIRA_REG, 1, &iodir, 1, HAL_MAX_DELAY);
+//    HAL_I2C_Mem_Write(hi2c, MCP23017_ADDR, IODIRB_REG, 1, &iodir, 1, HAL_MAX_DELAY);
+//}
+//
+//uint8_t MCP23017_Read_GPIOA(I2C_HandleTypeDef *hi2c)
+//{
+//    uint8_t value;
+//    HAL_I2C_Mem_Read(hi2c, MCP23017_ADDR, GPIOA_REG, 1, &value, 1, HAL_MAX_DELAY);
+//    return value;
+//}
+//
+//uint8_t MCP23017_Read_GPIOB(I2C_HandleTypeDef *hi2c)
+//{
+//    uint8_t value;
+//    HAL_I2C_Mem_Read(hi2c, MCP23017_ADDR, GPIOB_REG, 1, &value, 1, HAL_MAX_DELAY);
+//    return value;
+//}
+//
+//void MCP23017_WriteRegister(I2C_HandleTypeDef *hi2c, uint8_t reg, uint8_t value) {
+//    HAL_I2C_Mem_Write(hi2c, MCP23017_ADDR, reg, I2C_MEMADD_SIZE_8BIT, &value, 1, HAL_MAX_DELAY);
+//}
+//
+//void MCP23017_EnablePullUps(I2C_HandleTypeDef *hi2c) {
+//    MCP23017_WriteRegister(hi2c, 0x0C, 0xFF);
+//    MCP23017_WriteRegister(hi2c, 0x0D, 0xFF);
+//}
