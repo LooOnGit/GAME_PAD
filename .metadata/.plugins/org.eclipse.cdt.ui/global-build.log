@@ -1,11 +1,24 @@
-14:22:52 **** Incremental Build of configuration Debug for project GAME_PAD ****
+14:35:14 **** Incremental Build of configuration Debug for project GAME_PAD ****
+make -j12 all 
+arm-none-eabi-gcc -o "GAME_PAD.elf" @"objects.list"   -mcpu=cortex-m3 -T"E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="GAME_PAD.map" -Wl,--gc-sections -static -L"E:\Pikotech\PROJECT\FIRMWARE\GAME_PAD\GAME_PAD\Library\Inc" --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: GAME_PAD.elf
+ 
+arm-none-eabi-size  GAME_PAD.elf 
+arm-none-eabi-objdump -h -S GAME_PAD.elf  > "GAME_PAD.list"
+   text	   data	    bss	    dec	    hex	filename
+  42876	    356	   3956	  47188	   b854	GAME_PAD.elf
+Finished building: default.size.stdout
+ 
+Finished building: GAME_PAD.list
+ 
+14:35:18 **** Incremental Build of configuration Debug for project GAME_PAD ****
 make -j12 all 
 arm-none-eabi-size  GAME_PAD.elf 
    text	   data	    bss	    dec	    hex	filename
   42876	    356	   3956	  47188	   b854	GAME_PAD.elf
 Finished building: default.size.stdout
  
-14:22:54 **** Incremental Build of configuration Debug for project GAME_PAD ****
+14:35:28 **** Incremental Build of configuration Debug for project GAME_PAD ****
 make -j12 all 
 arm-none-eabi-size  GAME_PAD.elf 
    text	   data	    bss	    dec	    hex	filename
