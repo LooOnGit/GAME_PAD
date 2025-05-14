@@ -24,6 +24,8 @@
 /* USER CODE BEGIN Includes */
 //#include "usbd_cdc_if.h"
 #include "string.h"
+#include "MCP27013.h"
+#include "TLC59116.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -32,13 +34,8 @@
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
-/* USER CODE BEGIN PD */
-#define MCP23017_ADDR     (0x20 << 1)
-#define TLC59116_ADDR (0x60 << 1)
-#define IODIRA_REG        0x00
-#define GPIOA_REG         0x12
-#define IODIRB_REG        0x01
-#define GPIOB_REG         0x13
+///* USER CODE BEGIN PD */
+
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -73,91 +70,8 @@ static void MX_TIM1_Init(void);
 /* USER CODE BEGIN 0 */
 uint8_t portA;
 uint8_t portB;
-void MCP23017_Init()
-{
-    uint8_t iodir = 0xFF; // Tất cả chân input
-
-    // Cấu hình cả PORTA và PORTB là input
-    HAL_I2C_Mem_Write(&hi2c1, MCP23017_ADDR, IODIRA_REG, 1, &iodir, 1, HAL_MAX_DELAY);
-    HAL_I2C_Mem_Write(&hi2c1, MCP23017_ADDR, IODIRB_REG, 1, &iodir, 1, HAL_MAX_DELAY);
-}
-
-uint8_t MCP23017_Read_GPIOA()
-{
-    uint8_t value;
-    HAL_I2C_Mem_Read(&hi2c1, MCP23017_ADDR, GPIOA_REG, 1, &value, 1, HAL_MAX_DELAY);
-    return value;
-}
-
-uint8_t MCP23017_Read_GPIOB()
-{
-    uint8_t value;
-    HAL_I2C_Mem_Read(&hi2c1, MCP23017_ADDR, GPIOB_REG, 1, &value, 1, HAL_MAX_DELAY);
-    return value;
-}
-
-void MCP23017_WriteRegister(uint8_t reg, uint8_t value) {
-    HAL_I2C_Mem_Write(&hi2c1, MCP23017_ADDR, reg, I2C_MEMADD_SIZE_8BIT, &value, 1, HAL_MAX_DELAY);
-}
-
-void MCP23017_EnablePullUps() {
-    MCP23017_WriteRegister(0x0C, 0xFF); // GPPUA - bật pull-up cho tất cả chân A
-    MCP23017_WriteRegister(0x0D, 0xFF); // GPPUB - bật pull-up cho tất cả chân B
-}
-
-void TLC59116_Init(I2C_HandleTypeDef *hi2c) {
-    uint8_t mode1 = 0x00; // Normal mode
-    uint8_t mode2 = 0x00; // Totem pole, outputs change on stop
-    HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, 0x00, I2C_MEMADD_SIZE_8BIT, &mode1, 1, HAL_MAX_DELAY);
-    HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, 0x01, I2C_MEMADD_SIZE_8BIT, &mode2, 1, HAL_MAX_DELAY);
-}
-
-void TLC59116_LED_ON(I2C_HandleTypeDef *hi2c) {
-    uint8_t ledout0 = 0xFF; // OUT0 = ON (01), các kênh khác = OFF
-    HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, 0x14, I2C_MEMADD_SIZE_8BIT, &ledout0, 1, HAL_MAX_DELAY);
-}
-
-void TLC59116_LED_OFF(I2C_HandleTypeDef *hi2c) {
-    uint8_t ledout0 = 0x00; // OUT0 = OFF (00)
-    HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, 0x14, I2C_MEMADD_SIZE_8BIT, &ledout0, 1, HAL_MAX_DELAY);
-}
-
-void TLC59116_LED_ALL_ON(I2C_HandleTypeDef *hi2c) {
-
-    uint8_t ledout[4] = {
-        0x55,
-        0x55,
-        0x55,
-        0x55
-    };
-    HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, 0x14, I2C_MEMADD_SIZE_8BIT, ledout, 4, HAL_MAX_DELAY);
-    HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, 0x15, I2C_MEMADD_SIZE_8BIT, ledout, 4, HAL_MAX_DELAY);
-    HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, 0x16, I2C_MEMADD_SIZE_8BIT, ledout, 4, HAL_MAX_DELAY);
-    HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, 0x17, I2C_MEMADD_SIZE_8BIT, ledout, 4, HAL_MAX_DELAY);
-}
-
-void TLC59116_Set_All_PWM_Mode(I2C_HandleTypeDef *hi2c) {
-    uint8_t ledout[4] = {0xAA, 0xAA, 0xAA, 0xAA};
-    HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, 0x14, I2C_MEMADD_SIZE_8BIT, ledout, 4, HAL_MAX_DELAY);
-    HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, 0x15, I2C_MEMADD_SIZE_8BIT, ledout, 4, HAL_MAX_DELAY);
-    HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, 0x16, I2C_MEMADD_SIZE_8BIT, ledout, 4, HAL_MAX_DELAY);
-    HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, 0x17, I2C_MEMADD_SIZE_8BIT, ledout, 4, HAL_MAX_DELAY);
-}
-
-void TLC59116_Set_PWM(I2C_HandleTypeDef *hi2c, uint8_t channel, uint8_t value) {
-    if (channel > 15) return;
-    uint8_t reg = 0x02 + channel;
-    HAL_I2C_Mem_Write(hi2c, TLC59116_ADDR, reg, I2C_MEMADD_SIZE_8BIT, &value, 1, HAL_MAX_DELAY);
-}
-
-uint16_t ADC_VAL = 0;
-int value = 0;
-int value_ledPWM = 0;
-
-long map(long x, long in_min, long in_max, long out_min, long out_max)
-{
-  return (x - in_min) * (out_max - out_min + 1) / (in_max - in_min + 1) + out_min;
-}
+int ADC_VAL;
+int value_ledPWM;
 /* USER CODE END 0 */
 
 /**
@@ -195,13 +109,12 @@ int main(void)
   MX_TIM1_Init();
   MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
-//  MCP23017_EnablePullUps();
+  MCP23017_EnablePullUps();
 
   //mode digital
-//  TLC59116_Init(&hi2c1);
+  TLC59116_Init(&hi2c1);
 
   //mode pwm
-  TLC59116_Init(&hi2c1);
   TLC59116_Set_All_PWM_Mode(&hi2c1);
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
 //  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);     // Nếu bạn dùng CH2 chính
@@ -255,27 +168,27 @@ int main(void)
 //	        HAL_Delay(10);
 //	    }
 	//control led follow PWM
-//    HAL_ADC_Start(&hadc1);
-//    HAL_ADC_PollForConversion(&hadc1, 100);
-//    ADC_VAL = HAL_ADC_GetValue(&hadc1);
-//    HAL_ADC_Stop(&hadc1);
-//    value_ledPWM = (ADC_VAL * 255)/4095;
-//	for(uint8_t j = 0; j < 14; j++){
-//		TLC59116_Set_PWM(&hi2c1, j, value_ledPWM); // Tăng độ sáng OUT0
-//	}
+    HAL_ADC_Start(&hadc1);
+    HAL_ADC_PollForConversion(&hadc1, 100);
+    ADC_VAL = HAL_ADC_GetValue(&hadc1);
+    HAL_ADC_Stop(&hadc1);
+    value_ledPWM = (ADC_VAL * 255)/4095;
+	for(uint8_t j = 0; j < 14; j++){
+		TLC59116_Set_PWM(&hi2c1, j, value_ledPWM); // Tăng độ sáng OUT0
+	}
 
-//	HAL_ADC_Start(&hadc2);
-//	HAL_ADC_PollForConversion(&hadc2, 100);
-//	ADC_VAL = HAL_ADC_GetValue(&hadc2);
-//	HAL_ADC_Stop(&hadc2);
-//	value_ledPWM = (ADC_VAL * 800)/4096;
+	HAL_ADC_Start(&hadc2);
+	HAL_ADC_PollForConversion(&hadc2, 100);
+	ADC_VAL = HAL_ADC_GetValue(&hadc2);
+	HAL_ADC_Stop(&hadc2);
+	value_ledPWM = (ADC_VAL * 800)/4096;
 
     // �?i�?u khiển PWM: Tăng dần từ 0 đến 100%
 //    for (uint16_t i = 0; i < 800; i++) {
 //        __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, i);  // Thay đổi duty cycle
 //        HAL_Delay(10); // Delay để quan sát thay đổi
 //    }
-//    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, value_ledPWM);
+    __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, value_ledPWM);
     // �?i�?u khiển PWM: Giảm dần từ 100% xuống 0%
 //    for (uint16_t i = 799; i >= 0; i--) {
 //        __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_2, i);  // Thay đổi duty cycle
@@ -308,7 +221,7 @@ void SystemClock_Config(void)
   RCC_OscInitStruct.HSIState = RCC_HSI_ON;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
-  RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL6;
+  RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL9;
   if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
   {
     Error_Handler();
@@ -323,12 +236,12 @@ void SystemClock_Config(void)
   RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV2;
   RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
 
-  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_1) != HAL_OK)
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_2) != HAL_OK)
   {
     Error_Handler();
   }
   PeriphClkInit.PeriphClockSelection = RCC_PERIPHCLK_ADC|RCC_PERIPHCLK_USB;
-  PeriphClkInit.AdcClockSelection = RCC_ADCPCLK2_DIV4;
+  PeriphClkInit.AdcClockSelection = RCC_ADCPCLK2_DIV2;
   PeriphClkInit.UsbClockSelection = RCC_USBCLKSOURCE_PLL;
   if (HAL_RCCEx_PeriphCLKConfig(&PeriphClkInit) != HAL_OK)
   {
