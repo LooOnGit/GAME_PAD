@@ -127,26 +127,26 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
   if(GPIO_Pin==GPIO_PIN_5){
 	  ButtonPoten2 = 1;
   }
-//  if(GPIO_Pin==GPIO_PIN_13){
-//	  if(EnBPoten1 == 0){
-//		  EnAPoten1 = 1;
-//	  }
-//  }
-//  if(GPIO_Pin==GPIO_PIN_14){
-//	  if(EnAPoten1 == 0){
-//		  EnBPoten1 = 1;
-//	  }
-//  }
-//  if(GPIO_Pin==GPIO_PIN_3){
-//	  if(EnAPoten2 == 0){
-//		  EnBPoten2 = 1;
-//	  }
-//  }
-//  if(GPIO_Pin==GPIO_PIN_12){
-//	  if(EnBPoten2 == 0){
-//		  EnAPoten2 = 1;
-//	  }
-//  }
+  if(GPIO_Pin==GPIO_PIN_13){
+	  if(EnBPoten1 == 0){
+		  EnAPoten1 = 1;
+	  }
+  }
+  if(GPIO_Pin==GPIO_PIN_14){
+	  if(EnAPoten1 == 0){
+		  EnBPoten1 = 1;
+	  }
+  }
+  if(GPIO_Pin==GPIO_PIN_3){
+	  if(EnAPoten2 == 0){
+		  EnBPoten2 = 1;
+	  }
+  }
+  if(GPIO_Pin==GPIO_PIN_12){
+	  if(EnBPoten2 == 0){
+		  EnAPoten2 = 1;
+	  }
+  }
 
 }
 
@@ -255,7 +255,7 @@ int main(void)
 		keyboardhid.Keycode2 = keyboardhid.Keycode2 | 0x01;
 		ButtonPoten1 = 0;
 	}
-
+//
 	if(EnAPoten1 == 1){
 		keyboardhid.Keycode2 = keyboardhid.Keycode2 | 0x02;
 		EnAPoten1 = 0;
@@ -291,21 +291,19 @@ int main(void)
 		EnBPoten2 = 0;
 	}
 
-
-
 //
 //
 //
 //	//button on poten 1
-////	pulsePre1 = __HAL_TIM_GET_COUNTER(&htim2);
-////	pulsePre2 = __HAL_TIM_GET_COUNTER(&htim3);
+//	pulsePre1 = __HAL_TIM_GET_COUNTER(&htim2);
+//	pulsePre2 = __HAL_TIM_GET_COUNTER(&htim3);
 //
 	USBD_HID_SendReport(&hUsbDeviceFS, &keyboardhid, sizeof (keyboardhid));
-//	EnAPoten1 = 0;
-//	EnBPoten1 = 0;
-//	EnAPoten2 = 0;
-//	EnBPoten2 = 0;
-//	HAL_Delay(100);
+	EnAPoten1 = 0;
+	EnBPoten1 = 0;
+	EnAPoten2 = 0;
+	EnBPoten2 = 0;
+	HAL_Delay(100);
 //
 //	//reset status button on poten
 	keyboardhid.Keycode2 = keyboardhid.Keycode2 & 0x00;
@@ -695,6 +693,7 @@ static void MX_GPIO_Init(void)
 /* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
@@ -702,9 +701,15 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_RESET);
 
-  /*Configure GPIO pin : PA5 */
-  GPIO_InitStruct.Pin = GPIO_PIN_5;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING_FALLING;
+  /*Configure GPIO pins : PC13 PC14 */
+  GPIO_InitStruct.Pin = GPIO_PIN_13|GPIO_PIN_14;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : PA3 PA5 */
+  GPIO_InitStruct.Pin = GPIO_PIN_3|GPIO_PIN_5;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
@@ -715,18 +720,24 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : PB4 */
-  GPIO_InitStruct.Pin = GPIO_PIN_4;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING_FALLING;
+  /*Configure GPIO pins : PB12 PB4 */
+  GPIO_InitStruct.Pin = GPIO_PIN_12|GPIO_PIN_4;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
 
   /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI3_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI3_IRQn);
+
   HAL_NVIC_SetPriority(EXTI4_IRQn, 1, 0);
   HAL_NVIC_EnableIRQ(EXTI4_IRQn);
 
   HAL_NVIC_SetPriority(EXTI9_5_IRQn, 2, 0);
   HAL_NVIC_EnableIRQ(EXTI9_5_IRQn);
+
+  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 1, 0);
+  HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
