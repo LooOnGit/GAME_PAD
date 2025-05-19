@@ -31,7 +31,27 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
+extern USBD_HandleTypeDef hUsbDeviceFS;
 
+typedef struct
+{
+//	uint16_t Keycode0;//x
+//	uint16_t Keycode1;//y
+
+	uint8_t Keycode0;//button 1-8
+	uint8_t Keycode1;//button 9-16
+	uint8_t Keycode2;//button 17-20
+
+//	uint16_t Keycode4;
+//	uint16_t Keycode5;
+
+//	uint8_t Keycode6;
+//	uint8_t Keycode7;
+//	uint8_t Keycode8;
+//	uint8_t Keycode9;
+}keyboardHID;
+
+keyboardHID keyboardhid={0};
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -43,7 +63,6 @@
 #define GPIOB_REG         0x13
 
 #define REPORT_SIZE 5
-extern USBD_HandleTypeDef hUsbDeviceFS;
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -85,11 +104,51 @@ uint8_t portB;
 int ADC_VAL;
 int value_ledPWM;
 int value_lcdPWM;
-volatile short pulse1=0;
-volatile short pulse2=0;
-
+volatile short pulseOld1=0;
+volatile short pulseOld2=0;
+volatile short pulsePre1=0;
+volatile short pulsePre2=0;
+uint32_t HC165_DT;
 uint8_t click_report[REPORT_SIZE] = {0};
+volatile uint8_t ButtonPoten1 = 0;
+volatile uint8_t ButtonPoten2 = 0;
+volatile uint8_t EnAPoten1 = 0;
+volatile uint8_t EnBPoten1 = 0;
+volatile uint8_t EnAPoten2 = 0;
+volatile uint8_t EnBPoten2 = 0;
 
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+  /* Prevent unused argument(s) compilation warning */
+  UNUSED(GPIO_Pin);
+  if(GPIO_Pin==GPIO_PIN_4){
+	  ButtonPoten1 = 1;
+  }
+  if(GPIO_Pin==GPIO_PIN_5){
+	  ButtonPoten2 = 1;
+  }
+//  if(GPIO_Pin==GPIO_PIN_13){
+//	  if(EnBPoten1 == 0){
+//		  EnAPoten1 = 1;
+//	  }
+//  }
+//  if(GPIO_Pin==GPIO_PIN_14){
+//	  if(EnAPoten1 == 0){
+//		  EnBPoten1 = 1;
+//	  }
+//  }
+//  if(GPIO_Pin==GPIO_PIN_3){
+//	  if(EnAPoten2 == 0){
+//		  EnBPoten2 = 1;
+//	  }
+//  }
+//  if(GPIO_Pin==GPIO_PIN_12){
+//	  if(EnBPoten2 == 0){
+//		  EnAPoten2 = 1;
+//	  }
+//  }
+
+}
 
 /* USER CODE END 0 */
 
@@ -126,9 +185,9 @@ int main(void)
   MX_ADC1_Init();
   MX_ADC2_Init();
   MX_TIM1_Init();
-  MX_USB_DEVICE_Init();
   MX_TIM2_Init();
   MX_TIM3_Init();
+  MX_USB_DEVICE_Init();
   /* USER CODE BEGIN 2 */
   MCP23017_Init(&hi2c1);
   MCP23017_EnablePullUps(&hi2c1);
@@ -151,35 +210,108 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	pulse1 = __HAL_TIM_GET_COUNTER(&htim2);
-	pulse2 = __HAL_TIM_GET_COUNTER(&htim3);
-//	if(pulse1 > 0){
-//		click_report[0] = 1; //click
-//		click_report[1] = pulse1;			//x
-//		click_report[2] = pulse2;			//y
-//		click_report[3] = 0;			//wheel
-//		click_report[4] = 0;			//motion wakeup
-//		pulse1 = 0;
-//		pulse2 = 0;
-//	}
-//	if(pulse2 > 0){
-//		click_report[0] = 2; //click
-//		click_report[1] = pulse1;			//x
-//		click_report[2] = pulse2;			//y
-//		click_report[3] = 0;			//wheel
-//		click_report[4] = 0;			//motion wakeup
-//		pulse2 = 0;
-//		pulse1 = 0;
-//	}
+	//read pot
+	pulsePre1 = __HAL_TIM_GET_COUNTER(&htim2);
+	pulsePre2 = __HAL_TIM_GET_COUNTER(&htim3);
+//
+//	//	  read button
+	portA = ~MCP23017_Read_GPIOA(&hi2c1);
+	portB = ~MCP23017_Read_GPIOB(&hi2c1);
 
-//	USBD_HID_SendReport(&hUsbDeviceFS,click_report,5);
+	//set status button buffer HID
+	keyboardhid.Keycode0 = portA;
+//	keyboardhid.Keycode6 = keyboardhid.Keycode6 | 0x01;//button1
+//	keyboardhid.Keycode6 = keyboardhid.Keycode6 | 0x02;//button2
+//	keyboardhid.Keycode6 = keyboardhid.Keycode6 | 0x04;//button3
+//	keyboardhid.Keycode6 = keyboardhid.Keycode6 | 0x08;//button4
+//	keyboardhid.Keycode6 = keyboardhid.Keycode6 | 0x10;//button5
+//	keyboardhid.Keycode6 = keyboardhid.Keycode6 | 0x20;//button6
+//	keyboardhid.Keycode6 = keyboardhid.Keycode6 | 0x40;//button7
+//	keyboardhid.Keycode6 = keyboardhid.Keycode6 | 0x80;//button8
+	keyboardhid.Keycode1 = portB;
+//	keyboardhid.Keycode7 = keyboardhid.Keycode7 | 0x01;//button9
+//	keyboardhid.Keycode7 = keyboardhid.Keycode7 | 0x02;//button10
+//	keyboardhid.Keycode7 = keyboardhid.Keycode7 | 0x04;//button11
+//	keyboardhid.Keycode7 = keyboardhid.Keycode7 | 0x08;//button12
+//	keyboardhid.Keycode7 = keyboardhid.Keycode7 | 0x10;//button13
+//	keyboardhid.Keycode7 = keyboardhid.Keycode7 | 0x20;//button14
 
-////	  read button
-    portA = MCP23017_Read_GPIOA(&hi2c1);
-    portB = MCP23017_Read_GPIOB(&hi2c1);
+	//set cursor status buffer HID
+//	keyboardhid.Keycode0 = pulse1*50;
+//	keyboardhid.Keycode1 = pulse2*50;
+
+	//button on poten 1
+	if(pulsePre1 > pulseOld1){
+		pulseOld1 = pulsePre1;
+		keyboardhid.Keycode1 = keyboardhid.Keycode1 | 0x40;
+	}
+
+	if(pulsePre1 < pulseOld1){
+		pulseOld1 = pulsePre1;
+		keyboardhid.Keycode1 = keyboardhid.Keycode1 | 0x80;
+	}
+
+	if(ButtonPoten1  == 1){
+		keyboardhid.Keycode2 = keyboardhid.Keycode2 | 0x01;
+		ButtonPoten1 = 0;
+	}
+
+	if(EnAPoten1 == 1){
+		keyboardhid.Keycode2 = keyboardhid.Keycode2 | 0x02;
+		EnAPoten1 = 0;
+	}
+
+	if(EnBPoten1 == 1){
+		keyboardhid.Keycode2 = keyboardhid.Keycode2 | 0x04;
+		EnBPoten1 = 0;
+	}
+
+	//button on poten 2
+	if(pulsePre2 > pulseOld2){
+		pulseOld2 = pulsePre2;
+		keyboardhid.Keycode2 = keyboardhid.Keycode2 | 0x08;
+	}
+	if(pulsePre2 < pulseOld2){
+		pulseOld2 = pulsePre2;
+		keyboardhid.Keycode2 = keyboardhid.Keycode2 | 0x10;
+	}
+
+	if(ButtonPoten2  == 1){
+		keyboardhid.Keycode2 = keyboardhid.Keycode2 | 0x20;
+		ButtonPoten2 = 0;
+	}
+
+	if(EnAPoten2 == 1){
+		keyboardhid.Keycode2 = keyboardhid.Keycode2 | 0x40;
+		EnAPoten2 = 0;
+	}
+
+	if(EnBPoten2 == 1){
+		keyboardhid.Keycode2 = keyboardhid.Keycode2 | 0x80;
+		EnBPoten2 = 0;
+	}
 
 
-//	//control led follow PWM
+
+//
+//
+//
+//	//button on poten 1
+////	pulsePre1 = __HAL_TIM_GET_COUNTER(&htim2);
+////	pulsePre2 = __HAL_TIM_GET_COUNTER(&htim3);
+//
+	USBD_HID_SendReport(&hUsbDeviceFS, &keyboardhid, sizeof (keyboardhid));
+//	EnAPoten1 = 0;
+//	EnBPoten1 = 0;
+//	EnAPoten2 = 0;
+//	EnBPoten2 = 0;
+//	HAL_Delay(100);
+//
+//	//reset status button on poten
+	keyboardhid.Keycode2 = keyboardhid.Keycode2 & 0x00;
+//
+//
+////	//control led follow PWM
     HAL_ADC_Start(&hadc1);
     HAL_ADC_PollForConversion(&hadc1, 100);
     ADC_VAL = HAL_ADC_GetValue(&hadc1);
@@ -189,7 +321,7 @@ int main(void)
 		TLC59116_Set_PWM(&hi2c1, j, value_ledPWM); // Tăng độ sáng OUT0
 	}
 //
-//	//control lcd light
+////	//control lcd light
 	HAL_ADC_Start(&hadc2);
 	HAL_ADC_PollForConversion(&hadc2, 100);
 	ADC_VAL = HAL_ADC_GetValue(&hadc2);
@@ -570,12 +702,31 @@ static void MX_GPIO_Init(void)
   /*Configure GPIO pin Output Level */
   HAL_GPIO_WritePin(GPIOB, GPIO_PIN_1, GPIO_PIN_RESET);
 
+  /*Configure GPIO pin : PA5 */
+  GPIO_InitStruct.Pin = GPIO_PIN_5;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING_FALLING;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
   /*Configure GPIO pin : PB1 */
   GPIO_InitStruct.Pin = GPIO_PIN_1;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : PB4 */
+  GPIO_InitStruct.Pin = GPIO_PIN_4;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING_FALLING;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI4_IRQn, 1, 0);
+  HAL_NVIC_EnableIRQ(EXTI4_IRQn);
+
+  HAL_NVIC_SetPriority(EXTI9_5_IRQn, 2, 0);
+  HAL_NVIC_EnableIRQ(EXTI9_5_IRQn);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
