@@ -1,9 +1,9 @@
-09:42:06 **** Incremental Build of configuration Debug for project GAME_PAD ****
+15:24:25 **** Incremental Build of configuration Debug for project GAME_PAD ****
 make -j12 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I"E:/Pikotech/PROJECT/FIRMWARE/GAME_PAD/GAME_PAD/Library/Inc" -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/HID/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
 ../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:292:44: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
-  292 |         USBD_HID_SendReport(&hUsbDeviceFS, &keyboardhid, sizeof (keyboardhid));
+../Core/Src/main.c:296:44: warning: passing argument 2 of 'USBD_HID_SendReport' from incompatible pointer type [-Wincompatible-pointer-types]
+  296 |         USBD_HID_SendReport(&hUsbDeviceFS, &keyboardhid, sizeof (keyboardhid));
       |                                            ^~~~~~~~~~~~
       |                                            |
       |                                            keyboardHID *
@@ -17,15 +17,15 @@ Finished building target: GAME_PAD.elf
 arm-none-eabi-size  GAME_PAD.elf 
 arm-none-eabi-objdump -h -S GAME_PAD.elf  > "GAME_PAD.list"
    text	   data	    bss	    dec	    hex	filename
-  35680	    308	   3964	  39952	   9c10	GAME_PAD.elf
+  40780	    308	   4052	  45140	   b054	GAME_PAD.elf
 Finished building: default.size.stdout
  
 Finished building: GAME_PAD.list
  
-09:42:10 **** Incremental Build of configuration Debug for project GAME_PAD ****
+15:24:28 **** Incremental Build of configuration Debug for project GAME_PAD ****
 make -j12 all 
 arm-none-eabi-size  GAME_PAD.elf 
    text	   data	    bss	    dec	    hex	filename
-  35680	    308	   3964	  39952	   9c10	GAME_PAD.elf
+  40780	    308	   4052	  45140	   b054	GAME_PAD.elf
 Finished building: default.size.stdout
  

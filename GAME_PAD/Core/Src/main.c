@@ -25,8 +25,8 @@
 //#include "usbd_cdc_if.h"
 #include "usbd_hid.h"
 #include "string.h"
-//#include "MCP23017.h"
-//#include "TLC59116.h"
+#include "MCP23017.h"
+#include "TLC59116.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -74,6 +74,8 @@ keyboardHID keyboardhid={0};
 ADC_HandleTypeDef hadc1;
 ADC_HandleTypeDef hadc2;
 
+I2C_HandleTypeDef hi2c2;
+
 TIM_HandleTypeDef htim1;
 TIM_HandleTypeDef htim2;
 TIM_HandleTypeDef htim3;
@@ -92,6 +94,7 @@ static void MX_TIM1_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_TIM3_Init(void);
 static void MX_TIM4_Init(void);
+static void MX_I2C2_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -173,15 +176,16 @@ int main(void)
   MX_TIM3_Init();
   MX_USB_DEVICE_Init();
   MX_TIM4_Init();
+  MX_I2C2_Init();
   /* USER CODE BEGIN 2 */
-//  MCP23017_Init(&hi2c1);
-//  MCP23017_EnablePullUps(&hi2c1);
+  MCP23017_Init(&hi2c2);
+  MCP23017_EnablePullUps(&hi2c2);
 
-  //mode digital
-//  TLC59116_Init(&hi2c1);
+//  mode digital
+  TLC59116_Init(&hi2c2);
 
   //mode pwm
-//  TLC59116_Set_All_PWM_Mode(&hi2c1);
+  TLC59116_Set_All_PWM_Mode(&hi2c2);
 //  HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
 //  HAL_TIMEx_PWMN_Start(&htim1, TIM_CHANNEL_2);
   HAL_TIM_Encoder_Start(&htim1, TIM_CHANNEL_1 | TIM_CHANNEL_2);
@@ -204,8 +208,8 @@ int main(void)
 	pulsePre4 = __HAL_TIM_GET_COUNTER(&htim4);
 //
 //	//	  read button
-//	portA = ~MCP23017_Read_GPIOA(&hi2c1);
-//	portB = ~MCP23017_Read_GPIOB(&hi2c1);
+	portA = ~MCP23017_Read_GPIOA(&hi2c2);
+	portB = ~MCP23017_Read_GPIOB(&hi2c2);
 	portA = 0;
 	portB = 0;
 
@@ -294,7 +298,7 @@ int main(void)
 //	EnBPoten1 = 0;
 //	EnAPoten2 = 0;
 //	EnBPoten2 = 0;
-	HAL_Delay(100);
+//	HAL_Delay(10);
 //
 //	//reset status button on poten
 	keyboardhid.Keycode2 = keyboardhid.Keycode2 & 0x00;
@@ -307,7 +311,7 @@ int main(void)
     HAL_ADC_Stop(&hadc1);
     value_ledPWM = (ADC_VAL * 255)/4095;
 	for(uint8_t j = 0; j < 14; j++){
-//		TLC59116_Set_PWM(&hi2c1, j, value_ledPWM); // Tăng độ sáng OUT0
+		TLC59116_Set_PWM(&hi2c2, j, value_ledPWM); // Tăng độ sáng OUT0
 	}
 //
 ////	//control lcd light
@@ -462,6 +466,40 @@ static void MX_ADC2_Init(void)
   /* USER CODE BEGIN ADC2_Init 2 */
 
   /* USER CODE END ADC2_Init 2 */
+
+}
+
+/**
+  * @brief I2C2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_I2C2_Init(void)
+{
+
+  /* USER CODE BEGIN I2C2_Init 0 */
+
+  /* USER CODE END I2C2_Init 0 */
+
+  /* USER CODE BEGIN I2C2_Init 1 */
+
+  /* USER CODE END I2C2_Init 1 */
+  hi2c2.Instance = I2C2;
+  hi2c2.Init.ClockSpeed = 100000;
+  hi2c2.Init.DutyCycle = I2C_DUTYCYCLE_2;
+  hi2c2.Init.OwnAddress1 = 0;
+  hi2c2.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+  hi2c2.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+  hi2c2.Init.OwnAddress2 = 0;
+  hi2c2.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+  hi2c2.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+  if (HAL_I2C_Init(&hi2c2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN I2C2_Init 2 */
+
+  /* USER CODE END I2C2_Init 2 */
 
 }
 
