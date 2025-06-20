@@ -12,3 +12,4 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:STM32_gamepad\ Debug/activeLaun
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:testBUTTON\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:test_HID\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:test_ledPWM\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:test_ledPWM\ Debug/activeLaunchTarget=null\:---
