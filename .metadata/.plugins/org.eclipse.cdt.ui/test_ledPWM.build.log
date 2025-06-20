@@ -1,0 +1,10 @@
+10:37:54 **** Incremental Build of configuration Debug for project test_ledPWM ****
+make -j12 all 
+arm-none-eabi-size  test_ledPWM.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6308	     12	   1668	   7988	   1f34	test_ledPWM.elf
+Finished building: default.size.stdout
+ 
+
+10:37:55 Build Finished. 0 errors, 0 warnings. (took 248ms)
+
