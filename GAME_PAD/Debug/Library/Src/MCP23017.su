@@ -1,5 +1,0 @@
-../Library/Src/MCP23017.c:3:6:MCP23017_Init	40	static
-../Library/Src/MCP23017.c:12:9:MCP23017_Read_GPIOA	40	static
-../Library/Src/MCP23017.c:19:9:MCP23017_Read_GPIOB	40	static
-../Library/Src/MCP23017.c:26:6:MCP23017_WriteRegister	32	static
-../Library/Src/MCP23017.c:30:6:MCP23017_EnablePullUps	16	static
